@@ -1,0 +1,29 @@
+Month: 9, Year: 2023
+
+Description: GPU Sale to IBM, Classification: revenue, Justification: Sale of GPUs to IBM is a revenue item, Total Amount: 15000.0
+Description: Consulting Services for Google, Classification: revenue, Justification: Consulting services provided to Google are a revenue item, Total Amount: 20000.0
+Description: GPU Sale to Meta, Classification: revenue, Justification: Sale of GPUs to Meta is a revenue item, Total Amount: 12000.0
+Description: Consulting Services for Nvidia, Classification: revenue, Justification: Consulting services provided to Nvidia are a revenue item, Total Amount: 19500.0
+Description: Licensing Fee from Startup Client, Classification: revenue, Justification: Licensing fees received from startup client are a revenue item, Total Amount: 5000.0
+Description: GPU Sale to Startup, Classification: revenue, Justification: Sale of GPUs to startup is a revenue item, Total Amount: 8000.0
+Description: Consulting Workshop for IBM, Classification: revenue, Justification: Consulting workshop provided to IBM is a revenue item, Total Amount: 6000.0
+Description: AI Model Customization for Google, Classification: revenue, Justification: AI model customization services provided to Google are a revenue item, Total Amount: 9000.0
+Description: GPU Sale to Research Institute, Classification: revenue, Justification: Sale of GPUs to research institute is a revenue item, Total Amount: 20000.0
+Description: Consulting Services for Meta, Classification: revenue, Justification: Consulting services provided to Meta are a revenue item, Total Amount: 23000.0
+Description: Licensing Fee from Enterprise Client, Classification: revenue, Justification: Licensing fees received from enterprise client are a revenue item, Total Amount: 7000.0
+Description: GPU Sale to AI Startup, Classification: revenue, Justification: Sale of GPUs to AI startup is a revenue item, Total Amount: 18000.0
+Description: AI Solution Deployment for IBM, Classification: revenue, Justification: AI solution deployment services provided to IBM are a revenue item, Total Amount: 13000.0
+Description: GPU Sale to University, Classification: revenue, Justification: Sale of GPUs to university is a revenue item, Total Amount: 16000.0
+Description: AI Workshop for Startup Clients, Classification: revenue, Justification: AI workshop services provided to startup clients are a revenue item, Total Amount: 4000.0
+Description: Licensing Fee from Tech Company, Classification: revenue, Justification: Licensing fees received from tech company are a revenue item, Total Amount: 6000.0
+Description: GPU Sale to Research Lab, Classification: revenue, Justification: Sale of GPUs to research lab is a revenue item, Total Amount: 22000.0
+Description: AI Model Training for Meta, Classification: revenue, Justification: AI model training services provided to Meta are a revenue item, Total Amount: 10000.0
+Description: GPU Sale to Financial Institution, Classification: revenue, Justification: Sale of GPUs to financial institution is a revenue item, Total Amount: 25000.0
+Description: Consulting Services for IBM, Classification: revenue, Justification: Consulting services provided to IBM are a revenue item, Total Amount: 11000.0
+Description: Licensing Fee from Edu-Tech Company, Classification: revenue, Justification: Licensing fees received from Edu-tech company are a revenue item, Total Amount: 8000.0
+Description: GPU Sale to AI Research Center, Classification: revenue, Justification: Sale of GPUs to AI research center is a revenue item, Total Amount: 19000.0
+Description: AI Solution Customization for Nvidia, Classification: revenue, Justification: AI solution customization services provided to Nvidia are a revenue item, Total Amount: 14000.0
+Description: Consulting Services for Startup, Classification: revenue, Justification: Consulting services provided to startup are a revenue item, Total Amount: 7000.0
+Description: GPU Sale to Tech Giant, Classification: revenue, Justification: Sale of GPUs to tech giant is a revenue item, Total Amount: 30000.0
+Description: AI Model Deployment for Google, Classification: revenue, Justification: AI model deployment services provided to Google are a revenue item, Total Amount: 13000.0
+Description: Licensing Fee from Healthcare Company, Classification: revenue, Justification: Licensing fees received from healthcare company are a revenue item, Total Amount: 9000.0

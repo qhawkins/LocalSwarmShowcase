@@ -1,0 +1,157 @@
+[
+    {
+        "type": "function",
+        "function": {
+          "name": "prompt_user",
+          "description": "function to ask the user for input or to ask the user for permission.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "prompt_to_user":{
+                "type": "string",
+                "description": "the prompt to give to the user"
+              }
+            },
+            "required": [
+              "prompt_to_user"
+          ]
+          }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+          "name": "create_agent",
+          "description": "function to create a new task delegator agent",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "agent_name":{
+                "type": "string",
+                "description": "the name of the agent to be created"
+              },
+              "agent_type":{
+                "type": "string",
+                "description": "the type of agent to be created",
+                "enum": ["task_delegator", "base_agent"]
+              },
+              "agent_description":{
+                "type": "string",
+                "description": "the description of the agent to be created"
+              }
+            },
+            "required": [
+              "agent_name",
+              "agent_type",
+              "agent_description"
+            ]
+          }
+        }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "end_chat",
+        "description": "end the current chat with the user and delete the agent",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "prompt_to_user":{
+              "type": "string",
+              "description": "the message to give to the user on closure"
+            }
+          },
+          "required": [
+            "prompt_to_user"
+        ]
+        }
+      }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_conversation",
+      "description": "function to retrieve an active conversation between 2 or more agents.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+            "conversation_id":{
+                "type": "string",
+                "description": "the unique conversation ID of the desired retrieved conversation"
+            }
+        },
+        "required": [
+          "conversation_id"
+      ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "remove_chat_from_conversation",
+      "description": "function to delete a conversation from the central conversation registry.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "conversation_id":{
+            "type": "string",
+            "description": "the unique ID of the conversation to be deleted"
+          }
+        },
+        "required": [
+          "conversation_id"
+      ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "send_chat_to_agent",
+      "description": "function to send a conversation to the specified agent.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "agent_name":{
+            "type": "string",
+            "description": "the name of the agent that the conversation is being sent to. THIS MUST BE THE FULL NAME OF THE AGENT."
+          },
+          "conversation_id":{
+            "type": "string",
+            "description": "the unique ID of the conversation to be sent to the specified agent."
+          }
+        },
+        "required": [
+            "agent_name",
+            "conversation_id"
+      ]
+      }
+    }
+},
+{
+  "type": "function",
+  "function": {
+    "name": "await_agent_completion",
+    "description": "function to await the completion of the desired agent's response.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "agent_name":{
+          "type": "string",
+          "description": "the name of the agent to be monitored for completion."
+        },
+        "conversation_id":{
+          "type": "string",
+          "description": "the ID of the conversation that the awaited results will be added to."
+        }
+      },
+      "required": [
+        "agent_name",
+        "conversation_id"
+    ]
+    }
+  }
+}
+  
+]

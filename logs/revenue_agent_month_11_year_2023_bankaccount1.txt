@@ -1,0 +1,10 @@
+Month: 11, Year: 2023
+
+Description: GPU Sale to IBM, Classification: revenue, Justification: This is a sale of GPUs to a client, which is a primary source of revenue for the company, Total Amount: 15000.0
+Description: Consulting Services - Google, Classification: revenue, Justification: This is a payment for consulting services provided to Google, which is a primary source of revenue for the company, Total Amount: 22400.0
+Description: GPU Sale to Meta, Classification: revenue, Justification: This is a sale of GPUs to a client, which is a primary source of revenue for the company, Total Amount: 79000.0
+Description: Consulting Services - Nvidia, Classification: revenue, Justification: This is a payment for consulting services provided to Nvidia, which is a primary source of revenue for the company, Total Amount: 23300.0
+Description: GPU Sale to Startup, Classification: revenue, Justification: This is a sale of GPUs to a client, which is a primary source of revenue for the company, Total Amount: 27500.0
+Description: Licensing Fees from Client, Classification: revenue, Justification: This is a payment of licensing fees from a client, which is a primary source of revenue for the company, Total Amount: 32300.0
+Description: Consulting Services - IBM, Classification: revenue, Justification: This is a payment for consulting services provided to IBM, which is a primary source of revenue for the company, Total Amount: 18300.0
+Description: GPU Sale to Research Institute, Classification: revenue, Justification: This is a sale of GPUs to a client, which is a primary source of revenue for the company, Total Amount: 39000.0

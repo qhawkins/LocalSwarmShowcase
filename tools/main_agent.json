@@ -1,0 +1,142 @@
+[
+    {
+        "type": "function",
+        "function": {
+          "name": "prompt_user",
+          "description": "function to ask the user for input or to ask the user for permission.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "prompt_to_user":{
+                "type": "string",
+                "description": "the prompt to give to the user"
+              }
+            },
+            "required": [
+              "prompt_to_user"
+          ]
+          }
+        }
+    },
+    {
+  "type": "function",
+  "function": {
+    "name": "await_agent_completion",
+    "description": "function to await the completion of the desired agent's response.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "agent_name":{
+          "type": "string",
+          "description": "the name of the agent to be monitored for completion."
+        },
+        "conversation_id":{
+          "type": "string",
+          "description": "the ID of the conversation that the awaited results will be added to."
+        }
+      },
+      "required": [
+        "agent_name",
+        "conversation_id"
+      ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "initiate_connection",
+      "description": "function to initiate a message connection with the selected agent in the swarm.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "target":{
+            "type": "string",
+            "description": "the name of the agent to initiate message connection with."
+          }
+        },
+        "required": [
+          "target"
+        ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "add_agent_message",
+        "description": "function to add a message to the target agent's short term memory.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "agent_name":{
+              "type": "string",
+              "description": "the name of the agent to send a message to.",
+              "enum": ["task_delegator"]
+            },
+            "message":{
+              "type": "string",
+              "description": "the message to send to the selected agent."
+            }
+          },
+          
+            "required": [
+            "agent_name",
+            "message"
+          ]
+          }
+        }
+      },
+
+    {
+      "type": "function",
+      "function": {
+        "name": "create_run",
+        "description": "function to create a run, and optionally to aggregate the other agent's communications with the current agent (you).",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "target":{
+              "type": "string",
+              "description": "the name of the agent to create a run with."
+            },
+            "aggregate_messages":{
+              "type": "boolean",
+              "description": "Boolean value that determines whether the chats from other agents will be given to the current agent (you). Choose True to aggregate messages."
+            },
+            "agents":{
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Array of agent names to be included in the run."
+            }
+          },
+          "required": [
+            "target",
+            "aggregate_messages",
+            "agents"
+          ]
+          }
+        }
+      },
+    {
+      "type": "function",
+      "function": {
+        "name": "check_agent_status",
+        "description": "function to check the status of the selected agent's completion.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "target":{
+              "type": "string",
+              "description": "the name of the agent to check on the status of."
+            }
+          },
+          "required": [
+            "target"
+          ]
+        }
+      }
+    }
+]

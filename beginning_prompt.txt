@@ -1,0 +1,1 @@
+Run the parse_csv tool using the task_delegator. to accomplish this, initiate communication with the task delegator, then add a message containing the prompt, and then finally run the agent. Avoid asking the user for clarification. The csv file and other details are already defined in the task delegator class.

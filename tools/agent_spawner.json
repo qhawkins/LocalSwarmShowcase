@@ -1,0 +1,101 @@
+[
+    {
+        "type": "function",
+        "function": {
+          "name": "create_child_agent",
+          "description": "function to create a new child agent for the agent swarm.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "agent_name":{
+                "type": "string",
+                "description": "the name of the agent to be created"
+              },
+              "agent_prompt":{
+                "type": "string",
+                "description": "the prompt of the child agent to be created"
+              },
+              "agent_description":{
+                "type": "string",
+                "description": "the short description of the capabilities and functionality of the created child agent"
+              }
+            },
+            "required": [
+                "agent_name",
+                "agent_prompt",
+                "agent_description"
+            ]
+          }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+          "name": "create_agent_conversation",
+          "description": "function to create a conversation between 2 or more agents.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+                "agent_names":{
+                    "type": "array",
+                    "items": {
+                    "type": "string"
+                    },
+                    "description": "the list of agents participating in the conversation. EACH ELEMENT OF THIS LIST (AGENT NAME) MUST BE THE FULL NAME OF THE AGENT."
+                  }
+            },
+            "required": [
+              "agent_names"
+          ]
+          }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+          "name": "add_chat_to_conversation",
+          "description": "function to retrieve an active conversation between 2 or more agents.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "conversation_id":{
+                "type": "string",
+                "description": "the ID of the conversation that is being retrieved."
+              },
+              "agent_name":{
+                "type": "string",
+                "description": "the name of the agent that is currently adding its chat to the conversation."
+              },
+              "chat":{
+                "type": "string",
+                "description": "the chat that the selected agent is adding to the conversation."
+              }
+            },
+            "required": [
+                "conversation_id",
+                "agent_name",
+                "chat"
+          ]
+          }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+          "name": "get_conversation",
+          "description": "function to retrieve an active conversation between 2 or more agents.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+                "conversation_id":{
+                    "type": "string",
+                    "description": "the unique conversation ID of the desired retrieved conversation"
+                }
+            },
+            "required": [
+              "conversation_id"
+          ]
+          }
+        }
+    }
+]

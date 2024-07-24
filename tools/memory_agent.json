@@ -1,0 +1,139 @@
+[
+    {
+        "type": "function",
+        "function": {
+          "name": "get_conversation",
+          "description": "function to retrieve an active conversation between 2 or more agents.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+                "conversation_id":{
+                    "type": "string",
+                    "description": "the unique conversation ID of the desired retrieved conversation"
+                }
+            },
+            "required": [
+              "conversation_id"
+          ]
+          }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+          "name": "add_chat_to_conversation",
+          "description": "function to retrieve an active conversation between 2 or more agents.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "conversation_id":{
+                "type": "string",
+                "description": "the ID of the conversation that is being retrieved."
+              },
+              "agent_name":{
+                "type": "string",
+                "description": "the name of the agent that is currently adding its chat to the conversation."
+              },
+              "chat":{
+                "type": "string",
+                "description": "the chat that the selected agent is adding to the conversation."
+              }
+            },
+            "required": [
+                "conversation_id",
+                "agent_name",
+                "chat"
+          ]
+          }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+          "name": "create_agent_conversation",
+          "description": "function to create a conversation between 2 or more agents.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+                "agent_names":{
+                    "type": "array",
+                    "items": {
+                    "type": "string"
+                    },
+                    "description": "the list of agents participating in the conversation. EACH ELEMENT OF THIS LIST (AGENT NAME) MUST BE THE FULL NAME OF THE AGENT."
+                  }
+            },
+            "required": [
+              "agent_names"
+          ]
+          }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+          "name": "remove_chat_from_conversation",
+          "description": "function to delete a conversation from the central conversation registry.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "conversation_id":{
+                "type": "string",
+                "description": "the unique ID of the conversation to be deleted"
+              }
+            },
+            "required": [
+              "conversation_id"
+          ]
+          }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+          "name": "send_chat_to_agent",
+          "description": "function to send a conversation to the specified agent.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "agent_name":{
+                "type": "string",
+                "description": "the full name of the agent that the conversation is being sent to. THIS MUST BE THE AGENTS FULL NAME."
+              },
+              "conversation_id":{
+                "type": "string",
+                "description": "the unique ID of the conversation to be sent to the specified agent."
+              }
+            },
+            "required": [
+                "agent_name",
+                "conversation_id"
+          ]
+          }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+          "name": "await_agent_completion",
+          "description": "function to await the completion of the desired agent's response.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "agent_name":{
+                "type": "string",
+                "description": "the name of the agent to be monitored for completion."
+              },
+              "conversation_id":{
+                "type": "string",
+                "description": "the ID of the conversation that the awaited results will be added to."
+              }
+            },
+            "required": [
+              "agent_name",
+              "conversation_id"
+          ]
+          }
+        }
+    }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "classify_transactions",
+      "description": "function to classify the 'unsure' transactions, takes list of transactions as an argument.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "unsure_transactions":{
+            "type": "array",
+            "items": { 
+                "type": "string" 
+            },
+            "description": "the list of the 'unsure' transactions to classify that dont appear currently in the ledger"
+          }
+        },
+        "required": [
+          "unsure_transactions"
+      ]
+      }
+    }
+  }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "type": "function",
+        "function": {
+          "name": "read_and_parse_csv",
+          "description": "function to read a csv from the given path and select a slice from the given start/end indices as well as the selected columns.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+                "file_path":{
+                    "type": "string",
+                    "description": "the file path of the data to be loaded"
+                },
+                "start_idx":{
+                    "type": "string",
+                    "description": "the index of the start of the selection"
+                },
+                "end_idx":{
+                    "type": "string",
+                    "description": "the index of the end of the selection"
+                },
+                "columns":{
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                        },
+                    "description": "the columns to be selected from the data"
+                }
+            },
+            "required": [
+                "file_path",
+                "start_idx",
+                "end_idx",
+                "columns"
+          ]
+          }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+          "name": "read_and_parse_csv",
+          "description": "function to read a csv from the given path and select a slice from the given start/end indices as well as the selected columns.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+                "file_path":{
+                    "type": "string",
+                    "description": "the file path of the data to be loaded"
+                }
+            },
+            "required": [
+                "file_path"
+          ]
+          }
+        }
+    }
+]

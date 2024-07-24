@@ -1,0 +1,1096 @@
+transaction_date,transaction_description,transaction_amount,bank_account_id
+10/1/2023,GPU Sale to IBM,-15000.00,bankaccount1
+10/1/2023,Consulting Services for Google,-5000.00,bankaccount1
+10/1/2023,Office Rent Payment,2500.00,bankaccount1
+10/2/2023,Software License Purchase,1200.00,bankaccount1
+10/2/2023,Nvidia GPU Procurement,8000.00,bankaccount1
+10/2/2023,Employee Salary Payment,4500.00,bankaccount1
+10/3/2023,Meta AI Project Milestone Payment,-10000.00,bankaccount1
+10/3/2023,Cloud Computing Expenses,800.00,bankaccount1
+10/3/2023,Office Supplies Purchase,250.00,bankaccount1
+10/4/2023,AI Training Workshop Income,-2500.00,bankaccount1
+10/4/2023,Travel Expenses for Client Meeting,750.00,bankaccount1
+10/4/2023,Internet and Utilities Payment,300.00,bankaccount1
+10/5/2023,GPU Sale to Startup Company,-8000.00,bankaccount1
+10/5/2023,Marketing Campaign Expenses,1500.00,bankaccount1
+10/5/2023,Professional Development Course,600.00,bankaccount1
+10/6/2023,Consulting Services for IBM,-6000.00,bankaccount1
+10/6/2023,Health Insurance Premium,1000.00,bankaccount1
+10/6/2023,Office Equipment Maintenance,400.00,bankaccount1
+10/7/2023,AI Model Licensing Fee from Client,-3500.00,bankaccount1
+10/7/2023,Employee Bonus Payment,2000.00,bankaccount1
+10/7/2023,Business Lunch with Potential Client,150.00,bankaccount1
+10/8/2023,GPU Sale to Research Institution,-12000.00,bankaccount1
+10/8/2023,Software Subscription Renewal,500.00,bankaccount1
+10/8/2023,Office Cleaning Service,200.00,bankaccount1
+10/9/2023,Consulting Services for Meta,-7000.00,bankaccount1
+10/9/2023,Tax Payment,5000.00,bankaccount1
+10/9/2023,Team Building Event Expenses,800.00,bankaccount1
+10/10/2023,AI Algorithm Licensing Fee,-4000.00,bankaccount1
+10/10/2023,Legal Services Payment,1500.00,bankaccount1
+10/10/2023,Office Furniture Purchase,1200.00,bankaccount1
+10/11/2023,GPU Sale to Google,-18000.00,bankaccount1
+10/11/2023,Employee Training Program,2000.00,bankaccount1
+10/11/2023,Client Refund for Overpayment,500.00,bankaccount1
+10/12/2023,Consulting Services for Nvidia,-5500.00,bankaccount1
+10/12/2023,Server Maintenance Costs,700.00,bankaccount1
+10/12/2023,Business Conference Registration Fee,600.00,bankaccount1
+10/13/2023,AI Model Customization Project Income,-9000.00,bankaccount1
+10/13/2023,Office Lease Security Deposit,3000.00,bankaccount1
+10/13/2023,Employee Expense Reimbursement,350.00,bankaccount1
+10/14/2023,GPU Sale to AI Startup,-10000.00,bankaccount1
+10/14/2023,Accounting Services Payment,800.00,bankaccount1
+10/14/2023,Office Snacks and Beverages,100.00,bankaccount1
+10/15/2023,Consulting Services for Tech Startup,-4500.00,bankaccount1
+10/15/2023,Employee Health Benefits,1200.00,bankaccount1
+10/15/2023,Domain Name Renewal,50.00,bankaccount1
+10/16/2023,AI Workshop Income,-3000.00,bankaccount1
+10/16/2023,Cloud Storage Upgrade,400.00,bankaccount1
+10/16/2023,Office Plant Maintenance,75.00,bankaccount1
+10/17/2023,GPU Sale to Research Lab,-14000.00,bankaccount1
+10/17/2023,Employee Retirement Plan Contribution,2000.00,bankaccount1
+10/17/2023,Business Cards Printing,150.00,bankaccount1
+10/18/2023,Consulting Services for IBM,-6500.00,bankaccount1
+10/18/2023,Software Development Tools Purchase,1000.00,bankaccount1
+10/18/2023,Office Water Delivery Service,80.00,bankaccount1
+10/19/2023,AI Model Deployment Project Income,-8500.00,bankaccount1
+10/19/2023,Professional Liability Insurance Premium,1500.00,bankaccount1
+10/19/2023,Team Lunch Expense,200.00,bankaccount1
+10/20/2023,GPU Sale to University,-11000.00,bankaccount1
+10/20/2023,Office Security System Upgrade,2000.00,bankaccount1
+10/20/2023,Industry Magazine Subscriptions,120.00,bankaccount1
+10/21/2023,Consulting Services for Google,-7500.00,bankaccount1
+10/21/2023,Employee Performance Bonuses,3000.00,bankaccount1
+10/21/2023,Office Supplies Restocking,300.00,bankaccount1
+10/22/2023,AI Algorithm Licensing Fee,-5000.00,bankaccount1
+10/22/2023,Travel Expenses for AI Conference,1800.00,bankaccount1
+10/22/2023,Client Gift Purchase,250.00,bankaccount1
+10/23/2023,GPU Sale to Meta,-16000.00,bankaccount1
+10/23/2023,Office Renovation Costs,5000.00,bankaccount1
+10/23/2023,Team Building Workshop Expenses,1000.00,bankaccount1
+10/24/2023,Consulting Services for Startup,-4000.00,bankaccount1
+10/24/2023,Marketing Material Design Services,800.00,bankaccount1
+10/24/2023,Office Coffee Machine Purchase,500.00,bankaccount1
+10/25/2023,AI Training Dataset Purchase,3000.00,bankaccount1
+10/25/2023,Employee Transportation Allowance,600.00,bankaccount1
+10/25/2023,Office Printer Maintenance,150.00,bankaccount1
+10/26/2023,GPU Sale to AI Research Firm,-13000.00,bankaccount1
+10/26/2023,Professional Certification Fees for Employees,2500.00,bankaccount1
+10/26/2023,Client Meeting Expenses,200.00,bankaccount1
+10/27/2023,Consulting Services for Nvidia,-8000.00,bankaccount1
+10/27/2023,Office Lease Payment,3500.00,bankaccount1
+10/27/2023,Employee Wellness Program Expenses,400.00,bankaccount1
+10/28/2023,AI Model Optimization Project Income,-7000.00,bankaccount1
+10/28/2023,Business Insurance Premium,1200.00,bankaccount1
+10/28/2023,Office Electrical Maintenance,300.00,bankaccount1
+10/29/2023,GPU Sale to Tech Startup,-9500.00,bankaccount1
+10/29/2023,Employee Education Reimbursement,1500.00,bankaccount1
+10/29/2023,Office Plants Purchase,200.00,bankaccount1
+10/30/2023,Consulting Services for IBM,-5800.00,bankaccount1
+10/30/2023,Software License Renewal,900.00,bankaccount1
+10/30/2023,Team Celebration Event,600.00,bankaccount1
+10/31/2023,AI Workshop Series Income,-6000.00,bankaccount1
+10/31/2023,End-of-Month Payroll,15000.00,bankaccount1
+10/31/2023,Office Utilities Payment,450.00,bankaccount1
+7/1/2023,GPU Sale to Google,-15000.00,bankaccount1
+7/1/2023,Consulting Services for IBM,-5000.00,bankaccount1
+7/1/2023,Office Rent Payment,2500.00,bankaccount1
+7/2/2023,Software License Purchase,1200.00,bankaccount1
+7/2/2023,Utility Bill Payment,350.00,bankaccount1
+7/2/2023,Client Meeting Expenses,180.00,bankaccount1
+7/3/2023,GPU Sale to Meta,-20000.00,bankaccount1
+7/3/2023,Employee Salary Payment,8000.00,bankaccount1
+7/3/2023,Office Supplies Purchase,250.00,bankaccount1
+7/4/2023,Consulting Services for Nvidia,-7500.00,bankaccount1
+7/4/2023,Internet Service Bill,150.00,bankaccount1
+7/4/2023,Business Travel Expenses,1200.00,bankaccount1
+7/5/2023,GPU Sale to IBM,-18000.00,bankaccount1
+7/5/2023,Marketing Campaign Expenses,3000.00,bankaccount1
+7/5/2023,Professional Development Course,500.00,bankaccount1
+7/6/2023,Licensing Fee from Google,-10000.00,bankaccount1
+7/6/2023,Cloud Services Subscription,800.00,bankaccount1
+7/6/2023,Client Entertainment Expenses,400.00,bankaccount1
+7/7/2023,Consulting Services for Meta,-6000.00,bankaccount1
+7/7/2023,Equipment Maintenance,300.00,bankaccount1
+7/7/2023,Office Cleaning Service,150.00,bankaccount1
+7/8/2023,GPU Sale to Nvidia,-22000.00,bankaccount1
+7/8/2023,Insurance Premium Payment,1500.00,bankaccount1
+7/8/2023,Team Building Event,600.00,bankaccount1
+7/9/2023,Licensing Fee from IBM,-12000.00,bankaccount1
+7/9/2023,Software Subscription Renewal,400.00,bankaccount1
+7/9/2023,Office Furniture Purchase,2000.00,bankaccount1
+7/10/2023,Consulting Services for Google,-8000.00,bankaccount1
+7/10/2023,Employee Health Insurance,3000.00,bankaccount1
+7/10/2023,Professional Membership Dues,250.00,bankaccount1
+7/11/2023,GPU Sale to Meta,-19000.00,bankaccount1
+7/11/2023,Legal Services Fee,1800.00,bankaccount1
+7/11/2023,Office Snacks and Beverages,100.00,bankaccount1
+7/12/2023,Licensing Fee from Nvidia,-11000.00,bankaccount1
+7/12/2023,Hardware Upgrade Expenses,5000.00,bankaccount1
+7/12/2023,Business Phone System Bill,200.00,bankaccount1
+7/13/2023,Consulting Services for IBM,-7000.00,bankaccount1
+7/13/2023,Employee Training Workshop,1500.00,bankaccount1
+7/13/2023,Office Plant Maintenance,75.00,bankaccount1
+7/14/2023,GPU Sale to Google,-21000.00,bankaccount1
+7/14/2023,Accounting Services Fee,1000.00,bankaccount1
+7/14/2023,Client Gift Expenses,300.00,bankaccount1
+7/15/2023,Licensing Fee from Meta,-13000.00,bankaccount1
+7/15/2023,Employee Bonus Payment,5000.00,bankaccount1
+7/15/2023,Office Security System Upgrade,2500.00,bankaccount1
+7/16/2023,Consulting Services for Nvidia,-9000.00,bankaccount1
+7/16/2023,Website Hosting Fee,100.00,bankaccount1
+7/16/2023,Industry Conference Registration,800.00,bankaccount1
+7/17/2023,GPU Sale to IBM,-23000.00,bankaccount1
+7/17/2023,Corporate Tax Payment,15000.00,bankaccount1
+7/17/2023,Team Lunch Expenses,250.00,bankaccount1
+7/18/2023,Licensing Fee from Google,-14000.00,bankaccount1
+7/18/2023,IT Support Services,600.00,bankaccount1
+7/18/2023,Office Printer Ink Purchase,150.00,bankaccount1
+7/19/2023,Consulting Services for Meta,-8500.00,bankaccount1
+7/19/2023,Employee Parking Fees,400.00,bankaccount1
+7/19/2023,Client Proposal Printing Costs,75.00,bankaccount1
+7/20/2023,GPU Sale to Nvidia,-24000.00,bankaccount1
+7/20/2023,Software Development Tools,1200.00,bankaccount1
+7/20/2023,Office Water Delivery Service,50.00,bankaccount1
+7/21/2023,Licensing Fee from IBM,-15000.00,bankaccount1
+7/21/2023,Employee Transportation Allowance,1000.00,bankaccount1
+7/21/2023,Office Air Conditioning Repair,500.00,bankaccount1
+7/22/2023,Consulting Services for Google,-9500.00,bankaccount1
+7/22/2023,Professional Certification Fees,700.00,bankaccount1
+7/22/2023,Office Stationery Purchase,100.00,bankaccount1
+7/23/2023,GPU Sale to Meta,-25000.00,bankaccount1
+7/23/2023,Employee Retirement Plan Contribution,4000.00,bankaccount1
+7/23/2023,Client Meeting Room Rental,300.00,bankaccount1
+7/24/2023,Licensing Fee from Nvidia,-16000.00,bankaccount1
+7/24/2023,Marketing Material Design,800.00,bankaccount1
+7/24/2023,Office Coffee Machine Purchase,350.00,bankaccount1
+7/25/2023,Consulting Services for IBM,-10000.00,bankaccount1
+7/25/2023,Employee Wellness Program,1500.00,bankaccount1
+7/25/2023,Business Magazine Subscriptions,100.00,bankaccount1
+7/26/2023,GPU Sale to Google,-26000.00,bankaccount1
+7/26/2023,Data Center Rental Fee,3000.00,bankaccount1
+7/26/2023,Office First Aid Kit Refill,50.00,bankaccount1
+7/27/2023,Licensing Fee from Meta,-17000.00,bankaccount1
+7/27/2023,Employee Performance Awards,2000.00,bankaccount1
+7/27/2023,Client Video Conference System,1500.00,bankaccount1
+7/28/2023,Consulting Services for Nvidia,-11000.00,bankaccount1
+7/28/2023,Cybersecurity Software License,2500.00,bankaccount1
+7/28/2023,Office Plant Purchase,200.00,bankaccount1
+7/29/2023,GPU Sale to IBM,-27000.00,bankaccount1
+7/29/2023,Employee Education Reimbursement,1800.00,bankaccount1
+7/29/2023,Business Card Printing,150.00,bankaccount1
+7/30/2023,Licensing Fee from Google,-18000.00,bankaccount1
+7/30/2023,Technical Book Purchase for Library,300.00,bankaccount1
+7/30/2023,Office Carpet Cleaning,250.00,bankaccount1
+7/31/2023,Consulting Services for Meta,-12000.00,bankaccount1
+7/31/2023,Employee Team Building Retreat,3500.00,bankaccount1
+7/31/2023,Office Equipment Depreciation,1000.00,bankaccount1
+2/1/2023,GPU Sale to IBM,-15000.00,bankaccount1
+2/1/2023,Consulting Services - Google,-5000.00,bankaccount1
+2/1/2023,Office Rent Payment,2500.00,bankaccount1
+2/2/2023,Software License Renewal,1200.00,bankaccount1
+2/2/2023,Cloud Computing Costs,800.00,bankaccount1
+2/2/2023,Employee Salary Payment,4500.00,bankaccount1
+2/3/2023,Nvidia GPU Purchase,8000.00,bankaccount1
+2/3/2023,Client Meeting Expenses,150.00,bankaccount1
+2/3/2023,Internet and Utilities,300.00,bankaccount1
+2/4/2023,AI Model Training Costs,2000.00,bankaccount1
+2/4/2023,Office Supplies Purchase,250.00,bankaccount1
+2/4/2023,Marketing Campaign Expense,1000.00,bankaccount1
+2/5/2023,Consulting Services - Meta,-7500.00,bankaccount1
+2/5/2023,Professional Development Course,500.00,bankaccount1
+2/5/2023,Travel Expenses for Client Visit,800.00,bankaccount1
+2/6/2023,Hardware Upgrade - Workstations,3000.00,bankaccount1
+2/6/2023,Legal Services Fee,1500.00,bankaccount1
+2/6/2023,Subscription - AI Research Journal,200.00,bankaccount1
+2/7/2023,GPU Sale to Startup Client,-10000.00,bankaccount1
+2/7/2023,Cloud Storage Expansion,600.00,bankaccount1
+2/7/2023,Team Building Event,400.00,bankaccount1
+2/8/2023,Consulting Services - IBM,-6000.00,bankaccount1
+2/8/2023,Software Development Tools,1000.00,bankaccount1
+2/8/2023,Office Cleaning Service,150.00,bankaccount1
+2/9/2023,AI Conference Registration Fees,1200.00,bankaccount1
+2/9/2023,Client Refund for Overpayment,500.00,bankaccount1
+2/9/2023,Health Insurance Premium,1800.00,bankaccount1
+2/10/2023,Licensing Fee Income - Proprietary AI Model,-20000.00,bankaccount1
+2/10/2023,Server Maintenance Costs,1500.00,bankaccount1
+2/10/2023,Office Furniture Purchase,2000.00,bankaccount1
+2/11/2023,Consulting Services - Nvidia,-8000.00,bankaccount1
+2/11/2023,Employee Training Program,1000.00,bankaccount1
+2/11/2023,Business Insurance Premium,2500.00,bankaccount1
+2/12/2023,GPU Sale to Research Institution,-12000.00,bankaccount1
+2/12/2023,Cybersecurity Software Upgrade,1800.00,bankaccount1
+2/12/2023,Office Snacks and Beverages,200.00,bankaccount1
+2/13/2023,Consulting Services - Google,-5500.00,bankaccount1
+2/13/2023,Equipment Repair,400.00,bankaccount1
+2/13/2023,Professional Membership Dues,300.00,bankaccount1
+2/14/2023,Valentine's Day Employee Appreciation Lunch,500.00,bankaccount1
+2/14/2023,Cloud-based Collaboration Tools Subscription,250.00,bankaccount1
+2/14/2023,Client Gift - AI-powered Smart Home Device,300.00,bankaccount1
+2/15/2023,Mid-month Salary Payment,4500.00,bankaccount1
+2/15/2023,Data Center Rental Fee,3000.00,bankaccount1
+2/15/2023,Office Plant Maintenance,100.00,bankaccount1
+2/16/2023,Consulting Services - Meta,-7000.00,bankaccount1
+2/16/2023,AI Ethics Consultant Fee,2000.00,bankaccount1
+2/16/2023,Team Lunch Meeting,200.00,bankaccount1
+2/17/2023,GPU Sale to Tech Startup,-18000.00,bankaccount1
+2/17/2023,Software Patent Filing Fees,5000.00,bankaccount1
+2/17/2023,Office Internet Upgrade,500.00,bankaccount1
+2/18/2023,Weekend Overtime Pay,1000.00,bankaccount1
+2/18/2023,AI Research Database Subscription,1500.00,bankaccount1
+2/18/2023,Client Demo Equipment Rental,800.00,bankaccount1
+2/19/2023,Consulting Services - IBM,-6500.00,bankaccount1
+2/19/2023,Digital Marketing Services,1200.00,bankaccount1
+2/19/2023,Office Supply Restocking,300.00,bankaccount1
+2/20/2023,GPU Purchase for Internal Use,9000.00,bankaccount1
+2/20/2023,Employee Wellness Program,600.00,bankaccount1
+2/20/2023,Cloud Security Audit,2500.00,bankaccount1
+2/21/2023,Licensing Fee Income - AI Algorithm,-15000.00,bankaccount1
+2/21/2023,Professional Liability Insurance,3000.00,bankaccount1
+2/21/2023,Team Building Workshop,1000.00,bankaccount1
+2/22/2023,Consulting Services - Nvidia,-8500.00,bankaccount1
+2/22/2023,Hardware Disposal and Recycling,400.00,bankaccount1
+2/22/2023,Industry Networking Event Sponsorship,2000.00,bankaccount1
+2/23/2023,GPU Sale to AI Research Lab,-20000.00,bankaccount1
+2/23/2023,Cloud Computing Platform Migration Costs,5000.00,bankaccount1
+2/23/2023,Office Lease Security Deposit,3000.00,bankaccount1
+2/24/2023,Consulting Services - Google,-6000.00,bankaccount1
+2/24/2023,AI Model Optimization Services,3500.00,bankaccount1
+2/24/2023,Employee Transportation Reimbursement,300.00,bankaccount1
+2/25/2023,Weekend Client Emergency Support,-2000.00,bankaccount1
+2/25/2023,Software License Audit Fees,1500.00,bankaccount1
+2/25/2023,Office Equipment Maintenance,400.00,bankaccount1
+2/26/2023,Consulting Services - Meta,-7500.00,bankaccount1
+2/26/2023,Data Annotation Services,2000.00,bankaccount1
+2/26/2023,Team Dinner - Project Completion Celebration,600.00,bankaccount1
+2/27/2023,GPU Sale to Financial Institution,-22000.00,bankaccount1
+2/27/2023,AI Conference Speaker Fee Income,-3000.00,bankaccount1
+2/27/2023,Office Security System Upgrade,1800.00,bankaccount1
+2/28/2023,Month-end Salary Payment,4500.00,bankaccount1
+2/28/2023,Annual Cloud Services Subscription Renewal,10000.00,bankaccount1
+2/28/2023,Utility Bills Payment,500.00,bankaccount1
+9/1/2023,GPU Sale to IBM,-15000.00,bankaccount1
+9/1/2023,Office Rent Payment,2500.00,bankaccount1
+9/1/2023,Internet Service Bill,150.00,bankaccount1
+9/2/2023,Consulting Services for Google,-8000.00,bankaccount1
+9/2/2023,Employee Salary Payment,5000.00,bankaccount1
+9/2/2023,Software License Renewal,500.00,bankaccount1
+9/3/2023,GPU Sale to Meta,-12000.00,bankaccount1
+9/3/2023,Office Supplies Purchase,200.00,bankaccount1
+9/3/2023,Cloud Storage Subscription,100.00,bankaccount1
+9/4/2023,Consulting Services for Nvidia,-10000.00,bankaccount1
+9/4/2023,Travel Expenses for Client Meeting,800.00,bankaccount1
+9/4/2023,Professional Development Course,600.00,bankaccount1
+9/5/2023,Licensing Fee from Startup Client,-5000.00,bankaccount1
+9/5/2023,Electricity Bill Payment,300.00,bankaccount1
+9/5/2023,Marketing Campaign Expenses,1000.00,bankaccount1
+9/6/2023,GPU Sale to Startup,-8000.00,bankaccount1
+9/6/2023,Employee Health Insurance,1500.00,bankaccount1
+9/6/2023,Office Cleaning Service,150.00,bankaccount1
+9/7/2023,Consulting Workshop for IBM,-6000.00,bankaccount1
+9/7/2023,Legal Services Fee,1000.00,bankaccount1
+9/7/2023,Coffee and Snacks for Office,50.00,bankaccount1
+9/8/2023,AI Model Customization for Google,-9000.00,bankaccount1
+9/8/2023,Equipment Maintenance,400.00,bankaccount1
+9/8/2023,Team Building Event,300.00,bankaccount1
+9/9/2023,GPU Sale to Research Institute,-20000.00,bankaccount1
+9/9/2023,Tax Payment,5000.00,bankaccount1
+9/9/2023,Office Furniture Purchase,1200.00,bankaccount1
+9/10/2023,Consulting Services for Meta,-11000.00,bankaccount1
+9/10/2023,Employee Training Program,800.00,bankaccount1
+9/10/2023,Cybersecurity Software Subscription,250.00,bankaccount1
+9/11/2023,Licensing Fee from Enterprise Client,-7000.00,bankaccount1
+9/11/2023,Phone Service Bill,100.00,bankaccount1
+9/11/2023,Client Dinner Expense,200.00,bankaccount1
+9/12/2023,GPU Sale to AI Startup,-18000.00,bankaccount1
+9/12/2023,Office Equipment Repair,300.00,bankaccount1
+9/12/2023,Professional Membership Dues,150.00,bankaccount1
+9/13/2023,AI Solution Deployment for IBM,-13000.00,bankaccount1
+9/13/2023,Employee Bonus Payment,2000.00,bankaccount1
+9/13/2023,Website Hosting Fee,50.00,bankaccount1
+9/14/2023,Consulting Services for Nvidia,-9500.00,bankaccount1
+9/14/2023,Business Insurance Premium,1000.00,bankaccount1
+9/14/2023,Office Plants Purchase,100.00,bankaccount1
+9/15/2023,GPU Sale to University,-16000.00,bankaccount1
+9/15/2023,Employee Salary Payment,5000.00,bankaccount1
+9/15/2023,Software Development Tools Subscription,200.00,bankaccount1
+9/16/2023,AI Workshop for Startup Clients,-4000.00,bankaccount1
+9/16/2023,Travel Expenses for Conference,1500.00,bankaccount1
+9/16/2023,Office Supplies Restocking,150.00,bankaccount1
+9/17/2023,Licensing Fee from Tech Company,-6000.00,bankaccount1
+9/17/2023,Water Bill Payment,80.00,bankaccount1
+9/17/2023,Team Lunch Expense,120.00,bankaccount1
+9/18/2023,GPU Sale to Research Lab,-22000.00,bankaccount1
+9/18/2023,Marketing Consultant Fee,1000.00,bankaccount1
+9/18/2023,Office Internet Upgrade,300.00,bankaccount1
+9/19/2023,Consulting Services for Google,-12000.00,bankaccount1
+9/19/2023,Employee Retirement Plan Contribution,1500.00,bankaccount1
+9/19/2023,Office Printer Ink Purchase,100.00,bankaccount1
+9/20/2023,AI Model Training for Meta,-10000.00,bankaccount1
+9/20/2023,Accounting Services Fee,800.00,bankaccount1
+9/20/2023,Industry Conference Tickets,500.00,bankaccount1
+9/21/2023,GPU Sale to Financial Institution,-25000.00,bankaccount1
+9/21/2023,Office Rent Payment,2500.00,bankaccount1
+9/21/2023,Employee Parking Reimbursement,200.00,bankaccount1
+9/22/2023,Consulting Services for IBM,-11000.00,bankaccount1
+9/22/2023,Software License Renewal,600.00,bankaccount1
+9/22/2023,Office Snack Supply,75.00,bankaccount1
+9/23/2023,Licensing Fee from Edu-Tech Company,-8000.00,bankaccount1
+9/23/2023,Employee Health and Wellness Program,400.00,bankaccount1
+9/23/2023,Business Card Printing,50.00,bankaccount1
+9/24/2023,GPU Sale to AI Research Center,-19000.00,bankaccount1
+9/24/2023,Legal Consultation Fee,1200.00,bankaccount1
+9/24/2023,Office Air Conditioning Repair,350.00,bankaccount1
+9/25/2023,AI Solution Customization for Nvidia,-14000.00,bankaccount1
+9/25/2023,Employee Training Workshop,1000.00,bankaccount1
+9/25/2023,Cloud Computing Resources,500.00,bankaccount1
+9/26/2023,Consulting Services for Startup,-7000.00,bankaccount1
+9/26/2023,Office Cleaning Supplies,100.00,bankaccount1
+9/26/2023,Team Building Workshop,600.00,bankaccount1
+9/27/2023,GPU Sale to Tech Giant,-30000.00,bankaccount1
+9/27/2023,Employee Salary Payment,5000.00,bankaccount1
+9/27/2023,Professional Literature Subscription,75.00,bankaccount1
+9/28/2023,AI Model Deployment for Google,-13000.00,bankaccount1
+9/28/2023,Office Equipment Upgrade,2000.00,bankaccount1
+9/28/2023,Client Gift Expense,150.00,bankaccount1
+9/29/2023,Licensing Fee from Healthcare Company,-9000.00,bankaccount1
+9/29/2023,Employee Transportation Allowance,300.00,bankaccount1
+9/29/2023,Office Plant Maintenance,50.00,bankaccount1
+9/30/2023,Consulting Services for Meta,-12000.00,bankaccount1
+9/30/2023,Quarterly Tax Payment,8000.00,bankaccount1
+9/30/2023,End-of-Month Team Celebration,200.00,bankaccount1
+6/1/2023,GPU Sale to IBM,-15000.00,bankaccount1
+6/1/2023,Consulting Services for Google,-5000.00,bankaccount1
+6/1/2023,Office Rent Payment,2500.00,bankaccount1
+6/2/2023,Software License Renewal,1200.00,bankaccount1
+6/2/2023,Utility Bill Payment,350.00,bankaccount1
+6/2/2023,Cloud Computing Expenses,750.00,bankaccount1
+6/3/2023,AI Model Training Costs,3000.00,bankaccount1
+6/3/2023,Employee Salary Payment,8000.00,bankaccount1
+6/3/2023,Client Meeting Lunch Expense,120.00,bankaccount1
+6/4/2023,Hardware Purchase for Project,2500.00,bankaccount1
+6/4/2023,Travel Expenses for Conference,1500.00,bankaccount1
+6/4/2023,Subscription to AI Research Journal,200.00,bankaccount1
+6/5/2023,GPU Sale to Meta,-20000.00,bankaccount1
+6/5/2023,Office Supplies Purchase,300.00,bankaccount1
+6/5/2023,Internet Service Payment,150.00,bankaccount1
+6/6/2023,Consulting Services for Nvidia,-7500.00,bankaccount1
+6/6/2023,Marketing Campaign Expenses,1000.00,bankaccount1
+6/6/2023,Professional Development Course,500.00,bankaccount1
+6/7/2023,Server Maintenance Costs,800.00,bankaccount1
+6/7/2023,Client Refund,2000.00,bankaccount1
+6/7/2023,Team Building Event,600.00,bankaccount1
+6/8/2023,GPU Sale to Startup Company,-10000.00,bankaccount1
+6/8/2023,Legal Services Fee,1500.00,bankaccount1
+6/8/2023,Office Cleaning Service,200.00,bankaccount1
+6/9/2023,Software Development Tools License,1000.00,bankaccount1
+6/9/2023,Health Insurance Premium,1800.00,bankaccount1
+6/9/2023,Client Project Milestone Payment,-12000.00,bankaccount1
+6/10/2023,Equipment Repair,400.00,bankaccount1
+6/10/2023,Industry Conference Registration,800.00,bankaccount1
+6/10/2023,Online Advertising Expenses,500.00,bankaccount1
+6/11/2023,Consulting Services for IBM,-6000.00,bankaccount1
+6/11/2023,Office Furniture Purchase,1200.00,bankaccount1
+6/11/2023,Employee Training Workshop,1500.00,bankaccount1
+6/12/2023,GPU Sale to Research Institution,-18000.00,bankaccount1
+6/12/2023,Cybersecurity Software Subscription,600.00,bankaccount1
+6/12/2023,Business Insurance Premium,1000.00,bankaccount1
+6/13/2023,Client Project Advance Payment,-8000.00,bankaccount1
+6/13/2023,Office Renovation Expenses,3000.00,bankaccount1
+6/13/2023,Company Vehicle Maintenance,300.00,bankaccount1
+6/14/2023,Consulting Services for Startup,-4000.00,bankaccount1
+6/14/2023,Employee Bonus Payment,5000.00,bankaccount1
+6/14/2023,Data Storage Upgrade,1500.00,bankaccount1
+6/15/2023,GPU Sale to Google,-22000.00,bankaccount1
+6/15/2023,Tax Payment,7500.00,bankaccount1
+6/15/2023,Client Entertainment Expenses,400.00,bankaccount1
+6/16/2023,Software License Sale,-3000.00,bankaccount1
+6/16/2023,Office Equipment Lease Payment,800.00,bankaccount1
+6/16/2023,Professional Membership Dues,250.00,bankaccount1
+6/17/2023,Consulting Services for Meta,-9000.00,bankaccount1
+6/17/2023,Employee Travel Reimbursement,600.00,bankaccount1
+6/17/2023,Website Hosting Fees,100.00,bankaccount1
+6/18/2023,GPU Sale to AI Startup,-13000.00,bankaccount1
+6/18/2023,Research and Development Expenses,4000.00,bankaccount1
+6/18/2023,Office Snacks and Beverages,150.00,bankaccount1
+6/19/2023,Client Project Final Payment,-15000.00,bankaccount1
+6/19/2023,Charitable Donation,1000.00,bankaccount1
+6/19/2023,Team Lunch Expense,200.00,bankaccount1
+6/20/2023,Consulting Services for Tech Firm,-7000.00,bankaccount1
+6/20/2023,Software Upgrade Costs,2000.00,bankaccount1
+6/20/2023,Office Plant Maintenance,100.00,bankaccount1
+6/21/2023,GPU Sale to University,-16000.00,bankaccount1
+6/21/2023,Employee Health and Wellness Program,500.00,bankaccount1
+6/21/2023,Printing and Stationery Expenses,150.00,bankaccount1
+6/22/2023,Licensing Fee Income,-5000.00,bankaccount1
+6/22/2023,Cloud Storage Expansion,1000.00,bankaccount1
+6/22/2023,Client Proposal Preparation Costs,300.00,bankaccount1
+6/23/2023,Consulting Services for Robotics Company,-8500.00,bankaccount1
+6/23/2023,Employee Transportation Allowance,1000.00,bankaccount1
+6/23/2023,Office Security System Upgrade,1500.00,bankaccount1
+6/24/2023,GPU Sale to Financial Institution,-19000.00,bankaccount1
+6/24/2023,Professional Certification Fees,800.00,bankaccount1
+6/24/2023,Team Building Workshop,1200.00,bankaccount1
+6/25/2023,Software Patent Filing Fees,3000.00,bankaccount1
+6/25/2023,Office Utilities Payment,400.00,bankaccount1
+6/25/2023,Client Meeting Venue Rental,500.00,bankaccount1
+6/26/2023,Consulting Services for Healthcare AI,-10000.00,bankaccount1
+6/26/2023,Employee Performance Bonus,4000.00,bankaccount1
+6/26/2023,Technical Book Purchases,200.00,bankaccount1
+6/27/2023,GPU Sale to E-commerce Giant,-25000.00,bankaccount1
+6/27/2023,Office Lease Deposit,5000.00,bankaccount1
+6/27/2023,Company Mobile Plan Payment,300.00,bankaccount1
+6/28/2023,AI Model Licensing Fee Income,-7000.00,bankaccount1
+6/28/2023,Marketing Materials Printing,600.00,bankaccount1
+6/28/2023,Employee Education Reimbursement,1000.00,bankaccount1
+6/29/2023,Consulting Services for Autonomous Vehicle Company,-12000.00,bankaccount1
+6/29/2023,IT Infrastructure Upgrade,3500.00,bankaccount1
+6/29/2023,Office Coffee Machine Purchase,400.00,bankaccount1
+6/30/2023,GPU Sale to Social Media Company,-21000.00,bankaccount1
+6/30/2023,Quarter-End Financial Review Expenses,1500.00,bankaccount1
+6/30/2023,Team Celebration Dinner,600.00,bankaccount1
+11/1/2023,GPU Sale to IBM,-15000.00,bankaccount1
+11/1/2023,Consulting Services - Google,-5000.00,bankaccount1
+11/1/2023,Office Rent Payment,2500.00,bankaccount1
+11/2/2023,Software License Purchase,1200.00,bankaccount1
+11/2/2023,Cloud Computing Expenses,800.00,bankaccount1
+11/2/2023,Employee Salary Payment,4500.00,bankaccount1
+11/3/2023,GPU Sale to Meta,-20000.00,bankaccount1
+11/3/2023,Office Supplies Purchase,250.00,bankaccount1
+11/3/2023,Internet and Utilities,300.00,bankaccount1
+11/4/2023,Consulting Services - Nvidia,-7500.00,bankaccount1
+11/4/2023,Marketing Expenses,1000.00,bankaccount1
+11/4/2023,Travel Expenses for Client Meeting,750.00,bankaccount1
+11/5/2023,GPU Sale to Startup,-8000.00,bankaccount1
+11/5/2023,Professional Development Course,500.00,bankaccount1
+11/5/2023,Equipment Maintenance,300.00,bankaccount1
+11/6/2023,Licensing Fees from Client,-3000.00,bankaccount1
+11/6/2023,Health Insurance Premium,1500.00,bankaccount1
+11/6/2023,Office Cleaning Service,200.00,bankaccount1
+11/7/2023,Consulting Services - IBM,-6000.00,bankaccount1
+11/7/2023,Server Upgrade,3000.00,bankaccount1
+11/7/2023,Business Lunch with Client,150.00,bankaccount1
+11/8/2023,GPU Sale to Research Institute,-12000.00,bankaccount1
+11/8/2023,Software Subscription Renewal,400.00,bankaccount1
+11/8/2023,Office Furniture Purchase,1000.00,bankaccount1
+11/9/2023,Licensing Fees from Client,-2500.00,bankaccount1
+11/9/2023,Legal Services,1500.00,bankaccount1
+11/9/2023,Employee Transportation Allowance,300.00,bankaccount1
+11/10/2023,Consulting Services - Google,-5500.00,bankaccount1
+11/10/2023,Conference Registration Fees,800.00,bankaccount1
+11/10/2023,Office Supplies Restocking,200.00,bankaccount1
+11/11/2023,GPU Sale to Meta,-18000.00,bankaccount1
+11/11/2023,Employee Training Workshop,1200.00,bankaccount1
+11/11/2023,Coffee and Snacks for Office,100.00,bankaccount1
+11/12/2023,Licensing Fees from Client,-3500.00,bankaccount1
+11/12/2023,Cloud Storage Upgrade,600.00,bankaccount1
+11/12/2023,Team Building Event,500.00,bankaccount1
+11/13/2023,Consulting Services - Nvidia,-8000.00,bankaccount1
+11/13/2023,Hardware Repair,400.00,bankaccount1
+11/13/2023,Business Insurance Premium,1000.00,bankaccount1
+11/14/2023,GPU Sale to Startup,-10000.00,bankaccount1
+11/14/2023,Office Equipment Lease,700.00,bankaccount1
+11/14/2023,Professional Membership Dues,250.00,bankaccount1
+11/15/2023,Licensing Fees from Client,-4000.00,bankaccount1
+11/15/2023,Employee Bonus Payment,2000.00,bankaccount1
+11/15/2023,Software Development Tools,600.00,bankaccount1
+11/16/2023,Consulting Services - IBM,-5800.00,bankaccount1
+11/16/2023,Marketing Campaign Expenses,1500.00,bankaccount1
+11/16/2023,Office Plant Maintenance,100.00,bankaccount1
+11/17/2023,GPU Sale to Research Institute,-14000.00,bankaccount1
+11/17/2023,Cybersecurity Upgrade,2000.00,bankaccount1
+11/17/2023,Client Gift Purchase,300.00,bankaccount1
+11/18/2023,Licensing Fees from Client,-3200.00,bankaccount1
+11/18/2023,Professional Certification Exam Fees,500.00,bankaccount1
+11/18/2023,Office Telephone System Upgrade,800.00,bankaccount1
+11/19/2023,Consulting Services - Google,-6200.00,bankaccount1
+11/19/2023,Employee Health and Wellness Program,400.00,bankaccount1
+11/19/2023,Printer Ink and Toner,150.00,bankaccount1
+11/20/2023,GPU Sale to Meta,-22000.00,bankaccount1
+11/20/2023,Cloud-based Project Management Tool Subscription,350.00,bankaccount1
+11/20/2023,Office Water Delivery Service,80.00,bankaccount1
+11/21/2023,Licensing Fees from Client,-3800.00,bankaccount1
+11/21/2023,Employee Recruitment Expenses,1000.00,bankaccount1
+11/21/2023,Technical Book Purchases for Library,200.00,bankaccount1
+11/22/2023,Consulting Services - Nvidia,-7800.00,bankaccount1
+11/22/2023,Office Air Conditioning Repair,500.00,bankaccount1
+11/22/2023,Business Cards Printing,100.00,bankaccount1
+11/23/2023,GPU Sale to Startup,-9500.00,bankaccount1
+11/23/2023,Employee Performance Review Software,600.00,bankaccount1
+11/23/2023,Office Parking Fees,150.00,bankaccount1
+11/24/2023,Licensing Fees from Client,-4200.00,bankaccount1
+11/24/2023,Team Lunch Celebration,300.00,bankaccount1
+11/24/2023,Office Security System Upgrade,1200.00,bankaccount1
+11/25/2023,Consulting Services - IBM,-6500.00,bankaccount1
+11/25/2023,Virtual Reality Equipment for Testing,2500.00,bankaccount1
+11/25/2023,Office Coffee Machine Purchase,400.00,bankaccount1
+11/26/2023,GPU Sale to Research Institute,-13000.00,bankaccount1
+11/26/2023,Employee Transportation Reimbursement,200.00,bankaccount1
+11/26/2023,Office Stationery Purchase,100.00,bankaccount1
+11/27/2023,Licensing Fees from Client,-3600.00,bankaccount1
+11/27/2023,Cloud Computing Workshop Fees,800.00,bankaccount1
+11/27/2023,Office Pest Control Service,150.00,bankaccount1
+11/28/2023,Consulting Services - Google,-5700.00,bankaccount1
+11/28/2023,Software Patent Filing Fees,3000.00,bankaccount1
+11/28/2023,Team Building Escape Room Activity,400.00,bankaccount1
+11/29/2023,GPU Sale to Meta,-19000.00,bankaccount1
+11/29/2023,Office Furniture Repair,300.00,bankaccount1
+11/29/2023,Employee Recognition Awards,500.00,bankaccount1
+11/30/2023,Licensing Fees from Client,-4500.00,bankaccount1
+11/30/2023,Annual Industry Conference Sponsorship,5000.00,bankaccount1
+11/30/2023,Office First Aid Kit Restocking,100.00,bankaccount1
+12/1/2023,GPU Sale to IBM,-15000.00,bankaccount1
+12/1/2023,Consulting Services for Google,-5000.00,bankaccount1
+12/1/2023,Office Rent Payment,2500.00,bankaccount1
+12/2/2023,Software License Purchase,1200.00,bankaccount1
+12/2/2023,Nvidia GPU Inventory Restock,8000.00,bankaccount1
+12/2/2023,Employee Salary Payment,7500.00,bankaccount1
+12/3/2023,Meta Consulting Project Payment,-12000.00,bankaccount1
+12/3/2023,Cloud Computing Services,800.00,bankaccount1
+12/3/2023,Office Supplies Purchase,250.00,bankaccount1
+12/4/2023,AI Model Training Costs,3000.00,bankaccount1
+12/4/2023,Client Meeting Lunch Expense,150.00,bankaccount1
+12/4/2023,Monthly Internet Bill,200.00,bankaccount1
+12/5/2023,GPU Sale to Startup Company,-8000.00,bankaccount1
+12/5/2023,Employee Health Insurance,1500.00,bankaccount1
+12/5/2023,Marketing Campaign Expense,2000.00,bankaccount1
+12/6/2023,Consulting Services for IBM,-6000.00,bankaccount1
+12/6/2023,Office Equipment Upgrade,3500.00,bankaccount1
+12/6/2023,Professional Development Course,800.00,bankaccount1
+12/7/2023,Licensing Fee Income from Tech Startup,-2500.00,bankaccount1
+12/7/2023,Travel Expenses for Client Meeting,1200.00,bankaccount1
+12/7/2023,Utility Bill Payment,300.00,bankaccount1
+12/8/2023,GPU Sale to Meta,-20000.00,bankaccount1
+12/8/2023,Employee Bonus Payout,5000.00,bankaccount1
+12/8/2023,Software Subscription Renewal,400.00,bankaccount1
+12/9/2023,Consulting Workshop for Google,-8000.00,bankaccount1
+12/9/2023,Office Cleaning Service,150.00,bankaccount1
+12/9/2023,Team Building Event Expense,1000.00,bankaccount1
+12/10/2023,AI Model Customization for Client,-10000.00,bankaccount1
+12/10/2023,Legal Services Fee,2000.00,bankaccount1
+12/10/2023,Office Snacks and Beverages,200.00,bankaccount1
+12/11/2023,GPU Sale to Research Institution,-12000.00,bankaccount1
+12/11/2023,Employee Transportation Allowance,500.00,bankaccount1
+12/11/2023,Industry Conference Registration Fee,1500.00,bankaccount1
+12/12/2023,Consulting Services for Nvidia,-7000.00,bankaccount1
+12/12/2023,Hardware Maintenance Costs,1000.00,bankaccount1
+12/12/2023,Client Gift Purchase,300.00,bankaccount1
+12/13/2023,Licensing Fee Income from AI Startup,-3000.00,bankaccount1
+12/13/2023,Office Furniture Purchase,2000.00,bankaccount1
+12/13/2023,Employee Training Workshop,1200.00,bankaccount1
+12/14/2023,GPU Sale to University Lab,-9000.00,bankaccount1
+12/14/2023,Cybersecurity Software Upgrade,1500.00,bankaccount1
+12/14/2023,Business Insurance Premium,800.00,bankaccount1
+12/15/2023,Consulting Project for Tech Startup,-5500.00,bankaccount1
+12/15/2023,Employee Year-end Bonus,10000.00,bankaccount1
+12/15/2023,Office Holiday Decoration Expense,300.00,bankaccount1
+12/16/2023,AI Model Deployment for Client,-15000.00,bankaccount1
+12/16/2023,Cloud Storage Upgrade,500.00,bankaccount1
+12/16/2023,Team Lunch Expense,400.00,bankaccount1
+12/17/2023,GPU Sale to AI Research Firm,-18000.00,bankaccount1
+12/17/2023,Professional Membership Dues,250.00,bankaccount1
+12/17/2023,Office Plant Maintenance,100.00,bankaccount1
+12/18/2023,Consulting Workshop for IBM,-9000.00,bankaccount1
+12/18/2023,Employee Wellness Program Expense,1000.00,bankaccount1
+12/18/2023,Technical Book Purchases,200.00,bankaccount1
+12/19/2023,Licensing Fee Income from Tech Giant,-5000.00,bankaccount1
+12/19/2023,Office Lease Deposit,3000.00,bankaccount1
+12/19/2023,Client Presentation Materials Printing,150.00,bankaccount1
+12/20/2023,GPU Sale to Robotics Company,-13000.00,bankaccount1
+12/20/2023,Employee Performance Bonus,4000.00,bankaccount1
+12/20/2023,Software Development Tool Subscription,600.00,bankaccount1
+12/21/2023,Consulting Services for Meta,-11000.00,bankaccount1
+12/21/2023,Office Security System Upgrade,2500.00,bankaccount1
+12/21/2023,Team Building Workshop Expense,1500.00,bankaccount1
+12/22/2023,AI Algorithm Licensing to Startup,-4000.00,bankaccount1
+12/22/2023,Hardware Upgrade for Workstations,5000.00,bankaccount1
+12/22/2023,Client Appreciation Event Expense,2000.00,bankaccount1
+12/23/2023,GPU Sale to Autonomous Vehicle Company,-16000.00,bankaccount1
+12/23/2023,Employee Health and Fitness Allowance,1000.00,bankaccount1
+12/23/2023,Office Coffee Machine Purchase,500.00,bankaccount1
+12/24/2023,Consulting Project for Google Cloud,-12000.00,bankaccount1
+12/24/2023,Year-end Accounting Services Fee,3000.00,bankaccount1
+12/24/2023,Holiday Gift Cards for Employees,1500.00,bankaccount1
+12/25/2023,AI Model Fine-tuning for Client,-8000.00,bankaccount1
+12/25/2023,Office Utility Deposit,1000.00,bankaccount1
+12/25/2023,Charitable Donation,2000.00,bankaccount1
+12/26/2023,GPU Sale to Financial Institution,-14000.00,bankaccount1
+12/26/2023,Employee Remote Work Setup Allowance,2000.00,bankaccount1
+12/26/2023,Digital Marketing Campaign Expense,1500.00,bankaccount1
+12/27/2023,Consulting Workshop for Nvidia,-10000.00,bankaccount1
+12/27/2023,Office Air Purifier Purchase,800.00,bankaccount1
+12/27/2023,Team Virtual Holiday Party Expense,500.00,bankaccount1
+12/28/2023,Licensing Fee Income from EdTech Company,-3500.00,bankaccount1
+12/28/2023,Professional Liability Insurance,1200.00,bankaccount1
+12/28/2023,Online Learning Platform Subscription,300.00,bankaccount1
+12/29/2023,GPU Sale to Healthcare AI Company,-17000.00,bankaccount1
+12/29/2023,Year-end Employee Recognition Awards,3000.00,bankaccount1
+12/29/2023,Office Supply Restocking,400.00,bankaccount1
+12/30/2023,Consulting Services for IBM Watson,-13000.00,bankaccount1
+12/30/2023,Cloud Computing Resource Expansion,2500.00,bankaccount1
+12/30/2023,Team Collaboration Tool Subscription,600.00,bankaccount1
+12/31/2023,AI Model Optimization for Client,-9000.00,bankaccount1
+12/31/2023,Year-end Tax Preparation Services,2000.00,bankaccount1
+12/31/2023,Office New Year Celebration Expense,1000.00,bankaccount1
+5/1/2023,GPU sale to Google,-15000.00,bankaccount1
+5/1/2023,Office rent payment,2500.00,bankaccount1
+5/1/2023,Consulting services for IBM,-5000.00,bankaccount1
+5/2/2023,Software license purchase,1200.00,bankaccount1
+5/2/2023,Internet bill payment,150.00,bankaccount1
+5/2/2023,Cloud storage subscription,75.00,bankaccount1
+5/3/2023,GPU sale to Meta,-12000.00,bankaccount1
+5/3/2023,Employee salary payment,8000.00,bankaccount1
+5/3/2023,Office supplies purchase,250.00,bankaccount1
+5/4/2023,Consulting services for Nvidia,-6000.00,bankaccount1
+5/4/2023,Electricity bill payment,300.00,bankaccount1
+5/4/2023,Professional development course,500.00,bankaccount1
+5/5/2023,GPU sale to Microsoft,-18000.00,bankaccount1
+5/5/2023,Marketing expenses,1000.00,bankaccount1
+5/5/2023,Travel expenses for client meeting,750.00,bankaccount1
+5/6/2023,Licensing fee income from startup,-2500.00,bankaccount1
+5/6/2023,Equipment maintenance,400.00,bankaccount1
+5/6/2023,Coffee and snacks for office,100.00,bankaccount1
+5/7/2023,Consulting services for Amazon,-7000.00,bankaccount1
+5/7/2023,Health insurance premium,1500.00,bankaccount1
+5/7/2023,Team building event,600.00,bankaccount1
+5/8/2023,GPU sale to Apple,-20000.00,bankaccount1
+5/8/2023,Legal services fee,1000.00,bankaccount1
+5/8/2023,Office cleaning service,200.00,bankaccount1
+5/9/2023,Consulting services for Tesla,-8000.00,bankaccount1
+5/9/2023,Business phone system,300.00,bankaccount1
+5/9/2023,Parking fees,50.00,bankaccount1
+5/10/2023,GPU sale to Intel,-16000.00,bankaccount1
+5/10/2023,Employee benefits payout,2000.00,bankaccount1
+5/10/2023,Software subscription renewal,400.00,bankaccount1
+5/11/2023,Consulting services for Oracle,-5500.00,bankaccount1
+5/11/2023,Office furniture purchase,1500.00,bankaccount1
+5/11/2023,Client lunch meeting,150.00,bankaccount1
+5/12/2023,GPU sale to AMD,-14000.00,bankaccount1
+5/12/2023,Professional association membership,300.00,bankaccount1
+5/12/2023,Online advertising expenses,500.00,bankaccount1
+5/13/2023,Licensing fee income from mid-size company,-3000.00,bankaccount1
+5/13/2023,Web hosting services,100.00,bankaccount1
+5/13/2023,Office plants maintenance,75.00,bankaccount1
+5/14/2023,Consulting services for Salesforce,-6500.00,bankaccount1
+5/14/2023,Employee training workshop,1000.00,bankaccount1
+5/14/2023,Office water delivery,50.00,bankaccount1
+5/15/2023,GPU sale to Qualcomm,-13000.00,bankaccount1
+5/15/2023,Quarterly tax payment,5000.00,bankaccount1
+5/15/2023,Industry conference registration,800.00,bankaccount1
+5/16/2023,Consulting services for Adobe,-7500.00,bankaccount1
+5/16/2023,Equipment rental for presentation,300.00,bankaccount1
+5/16/2023,Business cards printing,100.00,bankaccount1
+5/17/2023,GPU sale to Twitter,-11000.00,bankaccount1
+5/17/2023,Cloud computing services,600.00,bankaccount1
+5/17/2023,Office security system upgrade,1000.00,bankaccount1
+5/18/2023,Licensing fee income from large corporation,-4000.00,bankaccount1
+5/18/2023,Employee performance bonuses,3000.00,bankaccount1
+5/18/2023,Cybersecurity software subscription,200.00,bankaccount1
+5/19/2023,Consulting services for LinkedIn,-6000.00,bankaccount1
+5/19/2023,Office lease deposit refund,-1000.00,bankaccount1
+5/19/2023,Team lunch celebration,300.00,bankaccount1
+5/20/2023,GPU sale to Uber,-10000.00,bankaccount1
+5/20/2023,Professional liability insurance,800.00,bankaccount1
+5/20/2023,Office supplies restocking,150.00,bankaccount1
+5/21/2023,Consulting services for Airbnb,-5500.00,bankaccount1
+5/21/2023,Business travel flight booking,600.00,bankaccount1
+5/21/2023,Software development tools license,400.00,bankaccount1
+5/22/2023,GPU sale to Lyft,-9000.00,bankaccount1
+5/22/2023,Employee health and wellness program,500.00,bankaccount1
+5/22/2023,Client gift purchases,200.00,bankaccount1
+5/23/2023,Licensing fee income from government agency,-5000.00,bankaccount1
+5/23/2023,Office equipment maintenance,300.00,bankaccount1
+5/23/2023,Industry magazine subscriptions,100.00,bankaccount1
+5/24/2023,Consulting services for Spotify,-6500.00,bankaccount1
+5/24/2023,Corporate credit card payment,2000.00,bankaccount1
+5/24/2023,Team building event supplies,150.00,bankaccount1
+5/25/2023,GPU sale to Netflix,-17000.00,bankaccount1
+5/25/2023,Professional development seminar fees,700.00,bankaccount1
+5/25/2023,Office snack bar restocking,100.00,bankaccount1
+5/26/2023,Consulting services for Snapchat,-5000.00,bankaccount1
+5/26/2023,Employee transportation reimbursement,300.00,bankaccount1
+5/26/2023,Cloud storage upgrade,150.00,bankaccount1
+5/27/2023,GPU sale to Dropbox,-8000.00,bankaccount1
+5/27/2023,Office air conditioning repair,500.00,bankaccount1
+5/27/2023,Business networking event ticket,75.00,bankaccount1
+5/28/2023,Licensing fee income from educational institution,-2000.00,bankaccount1
+5/28/2023,Software license audit fees,400.00,bankaccount1
+5/28/2023,Office plant replacement,50.00,bankaccount1
+5/29/2023,Consulting services for Pinterest,-4500.00,bankaccount1
+5/29/2023,Employee retirement plan contribution,1500.00,bankaccount1
+5/29/2023,Office internet speed upgrade,200.00,bankaccount1
+5/30/2023,GPU sale to Zoom,-12000.00,bankaccount1
+5/30/2023,Legal consultation fees,600.00,bankaccount1
+5/30/2023,Team appreciation event,400.00,bankaccount1
+5/31/2023,Consulting services for Twitch,-5500.00,bankaccount1
+5/31/2023,Office lease payment,3000.00,bankaccount1
+5/31/2023,Business insurance premium,1000.00,bankaccount1
+1/1/2023,GPU Sales to Google,-25000.00,bankaccount1
+1/1/2023,Consulting Services for IBM,-10000.00,bankaccount1
+1/1/2023,Office Rent Payment,3500.00,bankaccount1
+1/2/2023,Software License Fees,-5000.00,bankaccount1
+1/2/2023,Employee Payroll,15000.00,bankaccount1
+1/2/2023,Cloud Computing Expenses,2000.00,bankaccount1
+1/3/2023,AI Model Training Costs,7500.00,bankaccount1
+1/3/2023,Client Meeting Expenses,250.00,bankaccount1
+1/3/2023,Office Supplies Purchase,500.00,bankaccount1
+1/4/2023,GPU Sales to Meta,-30000.00,bankaccount1
+1/4/2023,Consulting Services for Nvidia,-12000.00,bankaccount1
+1/4/2023,Internet and Utilities,800.00,bankaccount1
+1/5/2023,Marketing Campaign Expenses,5000.00,bankaccount1
+1/5/2023,Employee Health Insurance,3000.00,bankaccount1
+1/5/2023,Professional Development Courses,1500.00,bankaccount1
+1/6/2023,GPU Sales to Amazon,-28000.00,bankaccount1
+1/6/2023,Equipment Maintenance,1000.00,bankaccount1
+1/6/2023,Travel Expenses for Client Visit,2500.00,bankaccount1
+1/7/2023,Consulting Services for Microsoft,-15000.00,bankaccount1
+1/7/2023,Office Cleaning Services,300.00,bankaccount1
+1/7/2023,Software Subscription Fees,1000.00,bankaccount1
+1/8/2023,GPU Sales to Apple,-32000.00,bankaccount1
+1/8/2023,Legal Consulting Fees,5000.00,bankaccount1
+1/8/2023,Team Building Event,1500.00,bankaccount1
+1/9/2023,Consulting Services for Tesla,-18000.00,bankaccount1
+1/9/2023,Office Furniture Purchase,4000.00,bankaccount1
+1/9/2023,Employee Training Workshop,2000.00,bankaccount1
+1/10/2023,GPU Sales to Oracle,-27000.00,bankaccount1
+1/10/2023,Cybersecurity Services,3500.00,bankaccount1
+1/10/2023,Client Appreciation Gifts,1000.00,bankaccount1
+1/11/2023,Consulting Services for Intel,-14000.00,bankaccount1
+1/11/2023,Server Maintenance Costs,2500.00,bankaccount1
+1/11/2023,Office Snacks and Beverages,300.00,bankaccount1
+1/12/2023,GPU Sales to Salesforce,-29000.00,bankaccount1
+1/12/2023,Employee Bonuses,10000.00,bankaccount1
+1/12/2023,Professional Association Fees,500.00,bankaccount1
+1/13/2023,Consulting Services for AMD,-13000.00,bankaccount1
+1/13/2023,Data Center Rental,5000.00,bankaccount1
+1/13/2023,Office Equipment Repair,800.00,bankaccount1
+1/14/2023,GPU Sales to Twitter,-26000.00,bankaccount1
+1/14/2023,Employee Transportation Allowance,2000.00,bankaccount1
+1/14/2023,Industry Conference Registration,1500.00,bankaccount1
+1/15/2023,Consulting Services for Dell,-11000.00,bankaccount1
+1/15/2023,Software Development Tools,3000.00,bankaccount1
+1/15/2023,Client Lunch Meeting,400.00,bankaccount1
+1/16/2023,GPU Sales to Uber,-24000.00,bankaccount1
+1/16/2023,Office Renovation Expenses,8000.00,bankaccount1
+1/16/2023,Employee Wellness Program,1000.00,bankaccount1
+1/17/2023,Consulting Services for Lyft,-9000.00,bankaccount1
+1/17/2023,Cloud Storage Upgrade,1500.00,bankaccount1
+1/17/2023,Marketing Materials Printing,700.00,bankaccount1
+1/18/2023,GPU Sales to Adobe,-31000.00,bankaccount1
+1/18/2023,Employee Performance Awards,2500.00,bankaccount1
+1/18/2023,Office Plants and Maintenance,300.00,bankaccount1
+1/19/2023,Consulting Services for Cisco,-16000.00,bankaccount1
+1/19/2023,Technical Book Purchases,500.00,bankaccount1
+1/19/2023,Team Lunch Outing,600.00,bankaccount1
+1/20/2023,GPU Sales to PayPal,-23000.00,bankaccount1
+1/20/2023,Employee Retirement Plan Contributions,5000.00,bankaccount1
+1/20/2023,Office Security System Upgrade,2000.00,bankaccount1
+1/21/2023,Consulting Services for Airbnb,-12500.00,bankaccount1
+1/21/2023,Virtual Reality Equipment Purchase,4000.00,bankaccount1
+1/21/2023,Client Video Conference Setup,1000.00,bankaccount1
+1/22/2023,GPU Sales to Square,-28500.00,bankaccount1
+1/22/2023,Employee Education Reimbursement,3000.00,bankaccount1
+1/22/2023,Office Parking Fees,400.00,bankaccount1
+1/23/2023,Consulting Services for Spotify,-10500.00,bankaccount1
+1/23/2023,AI Research Journal Subscriptions,800.00,bankaccount1
+1/23/2023,Team Building Workshop,1800.00,bankaccount1
+1/24/2023,GPU Sales to Dropbox,-27500.00,bankaccount1
+1/24/2023,Professional Certification Fees,2000.00,bankaccount1
+1/24/2023,Office Water Delivery Service,150.00,bankaccount1
+1/25/2023,Consulting Services for Slack,-13500.00,bankaccount1
+1/25/2023,AI Ethics Seminar Expenses,3500.00,bankaccount1
+1/25/2023,Client Gift Baskets,750.00,bankaccount1
+1/26/2023,GPU Sales to Zoom,-29500.00,bankaccount1
+1/26/2023,Employee Health and Wellness Day,2500.00,bankaccount1
+1/26/2023,Office Pest Control Service,200.00,bankaccount1
+1/27/2023,Consulting Services for Twilio,-11500.00,bankaccount1
+1/27/2023,AI Hardware Prototype Development,7000.00,bankaccount1
+1/27/2023,Team Celebration Dinner,1000.00,bankaccount1
+1/28/2023,GPU Sales to Atlassian,-26500.00,bankaccount1
+1/28/2023,Employee Professional Headshots,1500.00,bankaccount1
+1/28/2023,Office Supply Restocking,600.00,bankaccount1
+1/29/2023,Consulting Services for DocuSign,-14500.00,bankaccount1
+1/29/2023,AI Conference Sponsorship,10000.00,bankaccount1
+1/29/2023,Team Coffee Machine Purchase,800.00,bankaccount1
+1/30/2023,GPU Sales to Shopify,-30500.00,bankaccount1
+1/30/2023,Employee Commuter Benefits,1800.00,bankaccount1
+1/30/2023,Office Artwork Purchase,2500.00,bankaccount1
+1/31/2023,Consulting Services for Okta,-12800.00,bankaccount1
+1/31/2023,End-of-Month Team Celebration,1200.00,bankaccount1
+1/31/2023,Monthly Financial Review Meeting,300.00,bankaccount1
+3/1/2023,GPU Sale to IBM,-15000.00,bankaccount1
+3/1/2023,Consulting Services for Google,-5000.00,bankaccount1
+3/1/2023,Office Rent Payment,2500.00,bankaccount1
+3/2/2023,Software License Purchase,1200.00,bankaccount1
+3/2/2023,Employee Salary Payment,8000.00,bankaccount1
+3/2/2023,Utility Bill Payment,350.00,bankaccount1
+3/3/2023,GPU Sale to Meta,-20000.00,bankaccount1
+3/3/2023,Office Supplies Purchase,250.00,bankaccount1
+3/3/2023,Client Meeting Expenses,180.00,bankaccount1
+3/4/2023,Consulting Services for Nvidia,-7500.00,bankaccount1
+3/4/2023,Internet Service Payment,100.00,bankaccount1
+3/4/2023,Employee Health Insurance,1500.00,bankaccount1
+3/5/2023,GPU Sale to Startup Client,-10000.00,bankaccount1
+3/5/2023,Marketing Campaign Expenses,2000.00,bankaccount1
+3/5/2023,Professional Development Course,500.00,bankaccount1
+3/6/2023,Licensing Fee from Client,-3000.00,bankaccount1
+3/6/2023,Cloud Services Subscription,800.00,bankaccount1
+3/6/2023,Office Cleaning Service,150.00,bankaccount1
+3/7/2023,Consulting Services for IBM,-6000.00,bankaccount1
+3/7/2023,Travel Expenses for Client Meeting,1200.00,bankaccount1
+3/7/2023,Office Equipment Purchase,2000.00,bankaccount1
+3/8/2023,GPU Sale to Google,-18000.00,bankaccount1
+3/8/2023,Employee Bonus Payment,5000.00,bankaccount1
+3/8/2023,Legal Services Fee,1000.00,bankaccount1
+3/9/2023,Consulting Services for Meta,-8000.00,bankaccount1
+3/9/2023,Software Upgrade Purchase,1500.00,bankaccount1
+3/9/2023,Team Building Event Expenses,600.00,bankaccount1
+3/10/2023,Licensing Fee from Startup,-2500.00,bankaccount1
+3/10/2023,Office Furniture Purchase,3000.00,bankaccount1
+3/10/2023,Phone Service Payment,120.00,bankaccount1
+3/11/2023,GPU Sale to Nvidia,-22000.00,bankaccount1
+3/11/2023,Employee Training Workshop,1800.00,bankaccount1
+3/11/2023,Business Insurance Premium,900.00,bankaccount1
+3/12/2023,Consulting Services for Startup,-4000.00,bankaccount1
+3/12/2023,Office Maintenance Repairs,500.00,bankaccount1
+3/12/2023,Industry Conference Registration,750.00,bankaccount1
+3/13/2023,GPU Sale to Research Institute,-12000.00,bankaccount1
+3/13/2023,Advertising Expenses,1000.00,bankaccount1
+3/13/2023,Employee Transportation Allowance,300.00,bankaccount1
+3/14/2023,Licensing Fee from Tech Company,-3500.00,bankaccount1
+3/14/2023,Data Center Rental Fee,2000.00,bankaccount1
+3/14/2023,Office Snacks and Beverages,200.00,bankaccount1
+3/15/2023,Consulting Services for IBM,-7000.00,bankaccount1
+3/15/2023,Employee Salary Payment,8000.00,bankaccount1
+3/15/2023,Software License Renewal,1500.00,bankaccount1
+3/16/2023,GPU Sale to Startup,-9000.00,bankaccount1
+3/16/2023,Professional Membership Dues,400.00,bankaccount1
+3/16/2023,Client Gift Expenses,250.00,bankaccount1
+3/17/2023,Consulting Services for Google,-6500.00,bankaccount1
+3/17/2023,Office Equipment Maintenance,300.00,bankaccount1
+3/17/2023,Employee Wellness Program,500.00,bankaccount1
+3/18/2023,Licensing Fee from Research Lab,-4000.00,bankaccount1
+3/18/2023,Cloud Storage Upgrade,600.00,bankaccount1
+3/18/2023,Team Lunch Expenses,350.00,bankaccount1
+3/19/2023,GPU Sale to Meta,-19000.00,bankaccount1
+3/19/2023,Website Redesign Services,2500.00,bankaccount1
+3/19/2023,Office Plants Purchase,150.00,bankaccount1
+3/20/2023,Consulting Services for Nvidia,-8500.00,bankaccount1
+3/20/2023,Employee Performance Bonuses,4000.00,bankaccount1
+3/20/2023,Cybersecurity Software Purchase,1800.00,bankaccount1
+3/21/2023,Licensing Fee from Tech Startup,-3200.00,bankaccount1
+3/21/2023,Office Lease Deposit,5000.00,bankaccount1
+3/21/2023,Professional Development Books,200.00,bankaccount1
+3/22/2023,GPU Sale to Research University,-14000.00,bankaccount1
+3/22/2023,Employee Health and Safety Training,1000.00,bankaccount1
+3/22/2023,Office Utilities Payment,400.00,bankaccount1
+3/23/2023,Consulting Services for IBM,-7500.00,bankaccount1
+3/23/2023,Hardware Upgrade for Workstations,3500.00,bankaccount1
+3/23/2023,Business Travel Insurance,250.00,bankaccount1
+3/24/2023,Licensing Fee from AI Startup,-3800.00,bankaccount1
+3/24/2023,Marketing Materials Printing,800.00,bankaccount1
+3/24/2023,Employee Appreciation Event,1200.00,bankaccount1
+3/25/2023,GPU Sale to Google,-21000.00,bankaccount1
+3/25/2023,Office Security System Upgrade,2000.00,bankaccount1
+3/25/2023,Industry Magazine Subscriptions,180.00,bankaccount1
+3/26/2023,Consulting Services for Meta,-9000.00,bankaccount1
+3/26/2023,Employee Recruitment Expenses,1500.00,bankaccount1
+3/26/2023,Office Coffee Machine Purchase,600.00,bankaccount1
+3/27/2023,Licensing Fee from Tech Giant,-5000.00,bankaccount1
+3/27/2023,Professional Certification Fees,1200.00,bankaccount1
+3/27/2023,Team Building Workshop,1800.00,bankaccount1
+3/28/2023,GPU Sale to AI Research Lab,-16000.00,bankaccount1
+3/28/2023,Employee Salary Payment,8000.00,bankaccount1
+3/28/2023,Office Internet Upgrade,500.00,bankaccount1
+3/29/2023,Consulting Services for Startup,-5500.00,bankaccount1
+3/29/2023,Legal Consultation Fees,1000.00,bankaccount1
+3/29/2023,Office Supplies Restocking,300.00,bankaccount1
+3/30/2023,Licensing Fee from Educational Institution,-4200.00,bankaccount1
+3/30/2023,Cloud Computing Resources,2500.00,bankaccount1
+3/30/2023,Employee Transportation Reimbursement,400.00,bankaccount1
+3/31/2023,GPU Sale to Nvidia,-23000.00,bankaccount1
+3/31/2023,Year-End Financial Audit Fees,3000.00,bankaccount1
+3/31/2023,Office Celebration for Q1 Success,800.00,bankaccount1
+4/1/2023,GPU Sale to Google,-15000.00,bankaccount1
+4/1/2023,Consulting Services for IBM,-5000.00,bankaccount1
+4/1/2023,Office Rent Payment,2500.00,bankaccount1
+4/2/2023,Software License Fees,-1200.00,bankaccount1
+4/2/2023,Cloud Computing Expenses,800.00,bankaccount1
+4/2/2023,Employee Salary Payment,4500.00,bankaccount1
+4/3/2023,Hardware Purchase from Nvidia,7500.00,bankaccount1
+4/3/2023,Client Meeting Expenses,150.00,bankaccount1
+4/3/2023,Internet and Utilities,300.00,bankaccount1
+4/4/2023,AI Model Training Costs,2000.00,bankaccount1
+4/4/2023,Marketing Campaign Expenses,1000.00,bankaccount1
+4/4/2023,Office Supplies Purchase,200.00,bankaccount1
+4/5/2023,Consulting Services for Meta,-8000.00,bankaccount1
+4/5/2023,Employee Health Insurance,1500.00,bankaccount1
+4/5/2023,Professional Development Course,500.00,bankaccount1
+4/6/2023,GPU Sale to Nvidia,-20000.00,bankaccount1
+4/6/2023,Travel Expenses for Client Visit,1200.00,bankaccount1
+4/6/2023,Software Subscription Renewal,400.00,bankaccount1
+4/7/2023,Legal Services Fee,1000.00,bankaccount1
+4/7/2023,Office Equipment Maintenance,300.00,bankaccount1
+4/7/2023,Bank Service Charges,50.00,bankaccount1
+4/8/2023,Consulting Services for Google,-10000.00,bankaccount1
+4/8/2023,Employee Bonus Payment,2000.00,bankaccount1
+4/8/2023,Cloud Storage Upgrade,600.00,bankaccount1
+4/9/2023,Client Refund,1500.00,bankaccount1
+4/9/2023,Office Cleaning Service,200.00,bankaccount1
+4/9/2023,Telecommunication Expenses,150.00,bankaccount1
+4/10/2023,GPU Sale to IBM,-18000.00,bankaccount1
+4/10/2023,Tax Payment,5000.00,bankaccount1
+4/10/2023,Team Building Event,800.00,bankaccount1
+4/11/2023,Consulting Services for Apple,-12000.00,bankaccount1
+4/11/2023,Server Maintenance Costs,1500.00,bankaccount1
+4/11/2023,Office Furniture Purchase,2000.00,bankaccount1
+4/12/2023,Software Development Tools,1000.00,bankaccount1
+4/12/2023,Employee Training Program,1200.00,bankaccount1
+4/12/2023,Client Entertainment Expenses,300.00,bankaccount1
+4/13/2023,GPU Sale to Meta,-22000.00,bankaccount1
+4/13/2023,Advertising Expenses,1500.00,bankaccount1
+4/13/2023,Office Security System Upgrade,800.00,bankaccount1
+4/14/2023,Consulting Services for Microsoft,-15000.00,bankaccount1
+4/14/2023,Employee Transportation Allowance,500.00,bankaccount1
+4/14/2023,Research and Development Costs,3000.00,bankaccount1
+4/15/2023,Quarterly Tax Payment,8000.00,bankaccount1
+4/15/2023,Office Lease Deposit,3000.00,bankaccount1
+4/15/2023,Hardware Repair Costs,400.00,bankaccount1
+4/16/2023,GPU Sale to Amazon,-25000.00,bankaccount1
+4/16/2023,Employee Retirement Contribution,2000.00,bankaccount1
+4/16/2023,Software License Purchase,1500.00,bankaccount1
+4/17/2023,Consulting Services for Oracle,-9000.00,bankaccount1
+4/17/2023,Office Renovation Expenses,5000.00,bankaccount1
+4/17/2023,Data Center Cooling Costs,1000.00,bankaccount1
+4/18/2023,Client Project Advance Payment,-5000.00,bankaccount1
+4/18/2023,Employee Performance Bonus,1500.00,bankaccount1
+4/18/2023,Cybersecurity Software Upgrade,800.00,bankaccount1
+4/19/2023,GPU Sale to Tesla,-30000.00,bankaccount1
+4/19/2023,Conference Registration Fees,1200.00,bankaccount1
+4/19/2023,Office Plants and Maintenance,200.00,bankaccount1
+4/20/2023,Consulting Services for Intel,-11000.00,bankaccount1
+4/20/2023,Employee Health and Wellness Program,1000.00,bankaccount1
+4/20/2023,Technical Documentation Expenses,300.00,bankaccount1
+4/21/2023,GPU Sale to AMD,-17000.00,bankaccount1
+4/21/2023,Professional Membership Fees,500.00,bankaccount1
+4/21/2023,Office Snacks and Beverages,150.00,bankaccount1
+4/22/2023,Consulting Services for Salesforce,-13000.00,bankaccount1
+4/22/2023,Employee Education Reimbursement,2000.00,bankaccount1
+4/22/2023,Cloud Security Services,1000.00,bankaccount1
+4/23/2023,Patent Filing Fees,3000.00,bankaccount1
+4/23/2023,Team Lunch Expenses,400.00,bankaccount1
+4/23/2023,Office Equipment Leasing,600.00,bankaccount1
+4/24/2023,GPU Sale to Qualcomm,-19000.00,bankaccount1
+4/24/2023,Employee Relocation Expenses,5000.00,bankaccount1
+4/24/2023,Software Testing Tools,800.00,bankaccount1
+4/25/2023,Consulting Services for Adobe,-7000.00,bankaccount1
+4/25/2023,Corporate Insurance Premium,2500.00,bankaccount1
+4/25/2023,Network Infrastructure Upgrade,3000.00,bankaccount1
+4/26/2023,Client Workshop Expenses,1500.00,bankaccount1
+4/26/2023,Office Utilities Payment,400.00,bankaccount1
+4/26/2023,Employee Recognition Awards,500.00,bankaccount1
+4/27/2023,GPU Sale to Intel,-21000.00,bankaccount1
+4/27/2023,Legal Consultation Fees,1000.00,bankaccount1
+4/27/2023,Data Backup and Recovery Services,600.00,bankaccount1
+4/28/2023,Consulting Services for Twitter,-6000.00,bankaccount1
+4/28/2023,Employee Overtime Payment,1200.00,bankaccount1
+4/28/2023,Office Parking Fees,200.00,bankaccount1
+4/29/2023,GPU Sale to Microsoft,-23000.00,bankaccount1
+4/29/2023,Business Travel Insurance,300.00,bankaccount1
+4/29/2023,Software Localization Costs,1500.00,bankaccount1
+4/30/2023,Consulting Services for LinkedIn,-8000.00,bankaccount1
+4/30/2023,End-of-Month Accounting Services,1000.00,bankaccount1
+4/30/2023,Office Maintenance and Repairs,500.00,bankaccount1
+8/1/2023,GPU Sale to IBM,-15000.00,bankaccount1
+8/1/2023,Office Rent Payment,2500.00,bankaccount1
+8/1/2023,Internet Service Bill,150.00,bankaccount1
+8/2/2023,Consulting Services for Google,-5000.00,bankaccount1
+8/2/2023,Employee Payroll,7500.00,bankaccount1
+8/2/2023,Software License Renewal,500.00,bankaccount1
+8/3/2023,GPU Sale to Meta,-20000.00,bankaccount1
+8/3/2023,Office Supplies Purchase,300.00,bankaccount1
+8/3/2023,Cloud Storage Subscription,200.00,bankaccount1
+8/4/2023,Consulting Services for Nvidia,-7500.00,bankaccount1
+8/4/2023,Travel Expenses for Client Meeting,1000.00,bankaccount1
+8/4/2023,Professional Development Course,800.00,bankaccount1
+8/5/2023,Licensing Fee from Client,-3000.00,bankaccount1
+8/5/2023,Utilities Payment,400.00,bankaccount1
+8/5/2023,Marketing Campaign Expenses,1500.00,bankaccount1
+8/6/2023,GPU Sale to Startup Client,-10000.00,bankaccount1
+8/6/2023,Equipment Maintenance,600.00,bankaccount1
+8/6/2023,Business Insurance Premium,1200.00,bankaccount1
+8/7/2023,Consulting Workshop Revenue,-4000.00,bankaccount1
+8/7/2023,Employee Health Insurance,2000.00,bankaccount1
+8/7/2023,Office Cleaning Service,250.00,bankaccount1
+8/8/2023,AI Model Licensing to Client,-6000.00,bankaccount1
+8/8/2023,Server Upgrade Costs,3500.00,bankaccount1
+8/8/2023,Legal Consultation Fees,1000.00,bankaccount1
+8/9/2023,GPU Sale to Research Institution,-18000.00,bankaccount1
+8/9/2023,Employee Training Program,1500.00,bankaccount1
+8/9/2023,Telephone System Bill,180.00,bankaccount1
+8/10/2023,Consulting Services for Startup,-3500.00,bankaccount1
+8/10/2023,Office Furniture Purchase,2000.00,bankaccount1
+8/10/2023,Industry Conference Registration,750.00,bankaccount1
+8/11/2023,AI Software License Sale,-8000.00,bankaccount1
+8/11/2023,Employee Bonuses,5000.00,bankaccount1
+8/11/2023,Advertising Expenses,1200.00,bankaccount1
+8/12/2023,GPU Sale to E-commerce Client,-12000.00,bankaccount1
+8/12/2023,Coffee and Snacks for Office,150.00,bankaccount1
+8/12/2023,Cybersecurity Software Subscription,400.00,bankaccount1
+8/13/2023,Consulting Retainer from Client,-5500.00,bankaccount1
+8/13/2023,Team Building Event,800.00,bankaccount1
+8/13/2023,Office Plant Maintenance,100.00,bankaccount1
+8/14/2023,AI Model Customization for Client,-9000.00,bankaccount1
+8/14/2023,Employee Transportation Allowance,600.00,bankaccount1
+8/14/2023,Professional Membership Dues,300.00,bankaccount1
+8/15/2023,GPU Sale to Financial Institution,-25000.00,bankaccount1
+8/15/2023,Mid-month Payroll,7500.00,bankaccount1
+8/15/2023,Office Lease Deposit Return,-1000.00,bankaccount1
+8/16/2023,Consulting Workshop for Tech Startup,-4500.00,bankaccount1
+8/16/2023,Hardware Repair Costs,800.00,bankaccount1
+8/16/2023,Business Meal with Client,200.00,bankaccount1
+8/17/2023,AI Software Customization Revenue,-7000.00,bankaccount1
+8/17/2023,Employee Wellness Program,500.00,bankaccount1
+8/17/2023,Office Supply Restocking,250.00,bankaccount1
+8/18/2023,GPU Sale to Healthcare Client,-14000.00,bankaccount1
+8/18/2023,Cloud Computing Costs,1800.00,bankaccount1
+8/18/2023,Professional Certification Fees,600.00,bankaccount1
+8/19/2023,Consulting Services for Retail Client,-6500.00,bankaccount1
+8/19/2023,Company Vehicle Maintenance,400.00,bankaccount1
+8/19/2023,Industry Webinar Hosting Costs,300.00,bankaccount1
+8/20/2023,AI Model Deployment Revenue,-8500.00,bankaccount1
+8/20/2023,Office Equipment Lease Payment,700.00,bankaccount1
+8/20/2023,Employee Parking Fees Reimbursement,200.00,bankaccount1
+8/21/2023,GPU Sale to Gaming Company,-16000.00,bankaccount1
+8/21/2023,Software Development Tools Subscription,450.00,bankaccount1
+8/21/2023,Client Appreciation Gifts,300.00,bankaccount1
+8/22/2023,Consulting Retainer from Tech Giant,-10000.00,bankaccount1
+8/22/2023,Employee Performance Bonuses,4000.00,bankaccount1
+8/22/2023,Office Renovation Costs,3000.00,bankaccount1
+8/23/2023,AI Workshop Revenue,-5500.00,bankaccount1
+8/23/2023,Technical Book Purchases for Library,400.00,bankaccount1
+8/23/2023,Team Lunch Expense,250.00,bankaccount1
+8/24/2023,GPU Sale to Education Sector Client,-13000.00,bankaccount1
+8/24/2023,Internet Security Upgrade,1000.00,bankaccount1
+8/24/2023,Office Water Delivery Service,80.00,bankaccount1
+8/25/2023,Consulting Services for AI Startup,-4800.00,bankaccount1
+8/25/2023,Employee Health and Wellness Stipend,1500.00,bankaccount1
+8/25/2023,Business Travel Insurance,350.00,bankaccount1
+8/26/2023,AI Model Fine-tuning Revenue,-7500.00,bankaccount1
+8/26/2023,Office Air Conditioning Repair,600.00,bankaccount1
+8/26/2023,Corporate Social Responsibility Initiative,1000.00,bankaccount1
+8/27/2023,GPU Sale to Automotive Client,-19000.00,bankaccount1
+8/27/2023,Employee Education Reimbursement,2000.00,bankaccount1
+8/27/2023,Office Pest Control Service,150.00,bankaccount1
+8/28/2023,Consulting Workshop for Non-profit,-3000.00,bankaccount1
+8/28/2023,Software License Renewals,1200.00,bankaccount1
+8/28/2023,Team Building Workshop Facilitator,800.00,bankaccount1
+8/29/2023,AI Solution Implementation Revenue,-11000.00,bankaccount1
+8/29/2023,Office Electricity Bill,450.00,bankaccount1
+8/29/2023,Professional Networking Event Costs,300.00,bankaccount1
+8/30/2023,GPU Sale to Government Agency,-22000.00,bankaccount1
+8/30/2023,End-of-month Payroll,7500.00,bankaccount1
+8/30/2023,Office Security System Upgrade,1500.00,bankaccount1
+8/31/2023,Consulting Services Year-end Bonus,-15000.00,bankaccount1
+8/31/2023,Annual Software Audit Costs,2000.00,bankaccount1
+8/31/2023,Employee Recognition Awards,1000.00,bankaccount1

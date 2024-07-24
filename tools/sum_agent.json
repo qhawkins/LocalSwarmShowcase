@@ -1,0 +1,24 @@
+[
+    {
+        "type": "function",
+        "function": {
+          "name": "sum_amounts",
+          "description": "function to calculate a sum of all revenue items.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+                "amounts":{
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "the list of revenue amounts to sum up. "
+                }
+            },
+            "required": [
+              "amounts"
+          ]
+          }
+        }
+    }
+]

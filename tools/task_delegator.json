@@ -1,0 +1,126 @@
+[ 
+  {
+    "type": "function",
+    "function": {
+      "name": "create_run",
+      "description": "function to create a run, and optionally to aggregate the other agent's communications with the current agent (you).",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "target":{
+            "type": "string",
+            "description": "the name of the agent to initiate message connection with."
+          },
+          "aggregate_messages":{
+            "type": "boolean",
+            "description": "Boolean value that determines whether the chats from other agents will be given to the current agent (you). Choose True to aggregate messages."
+          },
+          "agents":{
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Array of agent names to be included in the run."
+          }
+        },
+        "required": [
+          "aggregate_messages",
+          "agents"
+        ]
+        }
+      }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "initiate_connection",
+      "description": "function to initiate a message connection with the selected agent in the swarm.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "target":{
+            "type": "string",
+            "description": "the name of the agent to initiate message connection with."
+          }
+        },
+        "required": [
+          "target"
+        ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "add_agent_message",
+        "description": "function to add a message to the target agent's short term memory.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "agent_name":{
+              "type": "string",
+              "description": "the name of the agent to send a message to."
+            },
+            "message":{
+              "type": "string",
+              "description": "the message to send to the selected agent."
+            }
+          },
+          
+            "required": [
+            "agent_name",
+            "message"
+          ]
+          }
+        }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "parse_csv",
+      "description": "tool to parse a csv file and delegate the classification of the csv contents to different agents in the agent swarm",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "date_field":{
+            "type": "string",
+            "description": "the field from the data that represents the date of each transaction."
+          },
+          "description_field":{
+            "type": "string",
+            "description": "the field from the data that represents the description of each transaction."
+          },
+          "amount_field":{
+            "type": "string",
+            "description": "the field from the data that represents the amount of each transaction."
+          },
+          "bankaccount_field":{
+            "type": "string",
+            "description": "the field from the data that represents the bank account of each transaction."
+          }
+        },
+        
+        "required": [
+          "date_field",
+          "description_field",
+          "amount_field",
+          "bankaccount_field"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "retrieve_field_names",
+      "description": "tool to retrieve the names of all fields in the csv file. this tool should be used in conjunction with the 'parse_csv' tool to determine the fields that need to be classified by the agents in the swarm.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+        },
+        "required": [
+      ]
+      }
+    }
+  }
+]
