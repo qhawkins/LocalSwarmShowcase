@@ -12,6 +12,7 @@ async def main(config):
 if __name__ == '__main__':
     config = {
         'openai_key': os.environ.get('OPENAIKEY'),
-        'engine': "gpt-4o"
+        # gpt-4-1106 preview works best for the main agent (gpt-4o doesnt follow the prompt well)
+        'engine': "gpt-4-1106-preview"
     }
     asyncio.run(main(config))

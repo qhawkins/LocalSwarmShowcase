@@ -1,7 +1,6 @@
 import asyncio
 #from BaseLLM import BaseLLM
 from modules.VLLM import BaseVLLM
-from agents.groq_agent import GroqAgent
 import json
 import time
 from openai import AsyncOpenAI
@@ -12,8 +11,6 @@ class BaseAgent:
         if "mixtral" in engine.lower() or "llama" in engine.lower():
             #self.client = BaseLLM(model_id=engine, batch_size=1)
             self.client = BaseVLLM(request_id=name, engine=engine)
-        elif "groq" in engine.lower():
-            self.client = GroqAgent()
         elif "gpt" in engine.lower():
             self.client = AsyncOpenAI(api_key=api_key, timeout=3600)
         else:

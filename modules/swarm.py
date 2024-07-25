@@ -4,6 +4,7 @@ from agents.base_agent import BaseAgent
 from agents.task_delegator import TaskDelegatorAgent
 import asyncio
 
+
 class Swarm:
     def __init__(self, config):
         self.openai_key = config['openai_key']

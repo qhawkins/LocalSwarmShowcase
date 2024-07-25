@@ -27,7 +27,6 @@ class Model:
                 max_num_seqs=8,
                 #enforce_eager=True,
                 worker_use_ray=True,
-                max_context_len_to_capture=4096,
                 max_model_len=4096,
                 use_v2_block_manager=True,
                 #enable_prefix_caching=True,
