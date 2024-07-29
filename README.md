@@ -1,6 +1,8 @@
 # Transaction Classification Agent Swarm
 
 I created this project while completing my internship at Lendica. My task was to create an agent swarm to aid in the loan underwriting process. This swarm helps automate the process of revenue classification by analyzing different transaction items and their descriptions in the context of the company as a whole. We originally used GPT-4 for the entire swarm, but that was incredibly expensive so I decided to make some of the token-intensive agents utilize Llama 3 70B. This led to significant cost savings without sacrificing on accuracy. 
+
+Keep in mind that there are still some bugs with this project and it is far from perfect. There are also some unimplemented features (such as the memory agent) which exist as placeholders. I have added some annotations to the code to help with readability.
   
 ## Project Description
 
