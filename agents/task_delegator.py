@@ -2,20 +2,12 @@ import time
 import json
 from agents.memory_agent import MemoryAgent
 from agents.base_agent import BaseAgent
-from agents.agent_spawner import AgentSpawner
 from agents.revenue_agent import RevenueAgent
 from agents.evaluator_agent import EvaluatorAgent
 from agents.sum_agent import SumAgent
 import pandas as pd
 import asyncio
 
-
-
-#from memory_agent import MemoryAgent        
-
-"""
-Task delegator agent, intended to break down the large task into smaller tasks, and delegate each task to a spawner agent
-"""
 class AsyncIterable:
     def __init__(self, data):
         self.data = data
@@ -27,21 +19,19 @@ class AsyncIterable:
 class TaskDelegatorAgent(BaseAgent):
     def __init__(self, name: str, engine: str, agent_type: str, api_key: str, memory: MemoryAgent, description: str, path: str):
         super().__init__(name=name, engine=engine, agent_type=agent_type, api_key=api_key, memory=memory, description="Task delegator agent")
-        self.data = pd.read_csv(path)
+        self.data = pd.read_csv(path)  # Load company data from CSV
 
     async def call_revenue_agent(self, number, month, year, data, bank_account):
-        #print(data)
-        #agent = RevenueAgent(f"revenue_agent_month_{month}_year_{year}_{bank_account}", "/media/qhawkins/SSD3/dolphin-2.7-mixtral-8x7b-6bpw", "revenue_agent", self.client.api_key, self.shared_memory, "Revenue agent", bank_account)
-        #agent = RevenueAgent(f"revenue_agent_month_{month}_year_{year}_{bank_account}", "./Mixtral-Instruct-6bpw", "revenue_agent", self.client.api_key, self.shared_memory, "Revenue agent", bank_account)
-        #agent = RevenueAgent(f"revenue_agent_month_{month}_year_{year}_{bank_account}", "groq", "revenue_agent", self.client.api_key, self.shared_memory, "Revenue agent", bank_account)    
-        #agent = RevenueAgent(f"revenue_agent_month_{month}_year_{year}_{bank_account}", "/media/qhawkins/SSD3/mixtral-8x22b-2.25bpw", "revenue_agent", self.client.api_key, self.shared_memory, "Revenue agent", bank_account)
-        #agent = RevenueAgent(f"revenue_agent_month_{month}_year_{year}_{bank_account}", "/media/qhawkins/SSD3/Llama-3-70B-Instruct-exl2", "revenue_agent", self.client.api_key, self.shared_memory, "Revenue agent", bank_account)
-        #agent = RevenueAgent(f"revenue_agent_month_{month}_year_{year}_{bank_account}", "/media/qhawkins/SSD3/Meta-Llama-3-70B-Instruct-4.0bpw-h6-exl2", "revenue_agent", self.client.api_key, self.shared_memory, "Revenue agent", bank_account)
-        agent = RevenueAgent(f"revenue_agent_month_{month}_year_{year}_{bank_account}", "/media/qhawkins/SSD3/llama-3-70b-instruct-awq", "revenue_agent", self.client.api_key, self.shared_memory, "Revenue agent", bank_account)
+        # Create and call a RevenueAgent for specific month, year, and bank account
+        agent = RevenueAgent(f"revenue_agent_month_{month}_year_{year}_{bank_account}", 
+                             "/media/qhawkins/SSD3/llama-3-70b-instruct-awq", 
+                             "revenue_agent", 
+                             self.client.api_key, 
+                             self.shared_memory, 
+                             "Revenue agent", 
+                             bank_account)
         
-        
-        chat = "Here is the data: \n" + str(data) + "\n\nMake sure to strictly adhere to the system prompt.\n"
-        #await self.shared_memory.register_agent(agent_name=f"revenue_agent_month_{month}_year_{year}", agent_info={"description": "Revenue agent", "status": "create_agent"}, agent_class=agent)
+        chat = f"Here is the data: \n{str(data)}\n\nMake sure to strictly adhere to the system prompt.\n"
         print("chat created")
         await asyncio.sleep(.25)
         await agent.add_agent_message(chat)
@@ -49,16 +39,14 @@ class TaskDelegatorAgent(BaseAgent):
         await asyncio.sleep(.25)
         await agent.send_message()
         print("message sent")
-        #agent.add_agent_message(f"revenue_agent_month_{month}_year_{year}_{bank_account}", chat)
         await asyncio.sleep(.25)
-        #agent.create_run()
-        #await asyncio.sleep(1)
         response = await agent.get_response()
         print("getting response")
         parsed_response = response[0].replace(chat, "")
         return parsed_response, response[1]
 
     def serial_parse(self, series: str):
+        # Remove specific patterns from the string
         split = series.split(" ")
         temp_str = ''
         for elem in split:
@@ -69,10 +57,10 @@ class TaskDelegatorAgent(BaseAgent):
         return temp_str            
 
     async def call_sum_agent(self, agent_num, data):
+        # Create and call a SumAgent to summarize data
         agent_name = f"sum_agent_{agent_num}"
         agent = SumAgent(agent_name, self.engine, "sum_agent", self.client.api_key, self.shared_memory, "Sum agent")
-        chat = "Read, evaluate and classify the following transactions. Here is the data: \n\n" + str(data) + "\n\nMake sure to strictly adhere to the format given in the prompt."
-        #await self.shared_memory.register_agent(agent_name=agent_name, agent_info={"description": "Sum agent", "status": "create_agent"}, agent_class=agent)
+        chat = f"Read, evaluate and classify the following transactions. Here is the data: \n\n{str(data)}\n\nMake sure to strictly adhere to the format given in the prompt."
         await asyncio.sleep(.25)
         await agent.add_agent_message(agent_name, chat)
         await asyncio.sleep(.25)
@@ -80,16 +68,15 @@ class TaskDelegatorAgent(BaseAgent):
         await asyncio.sleep(.25)
         response = await agent.get_response()
         parsed_response = response[0].replace(chat, "")
-        #await self.shared_memory.ledger_remove_agent(agent_name)
         return parsed_response, response[1]
 
     async def call_evaluator_agent(self, agent_num, data):
+        # Create and call an EvaluatorAgent to evaluate transactions
         agent_name = f"evaluator_agent_{agent_num}"
         agent = EvaluatorAgent(agent_name, self.engine, "evaluator_agent", self.client.api_key, self.shared_memory, "Evaluator agent")
         with open("ledger.txt", "r") as f:
             ledger = f.read()
-        chat = "Read, evaluate and classify the following transactions. Here is the data: \n\n" + str(data) + "###Ledger###\n" + ledger + "\n\nMake sure to strictly adhere to the format given in the prompt."
-        #await self.shared_memory.register_agent(agent_name=agent_name, agent_info={"description": "Evaluator agent", "status": "create_agent"}, agent_class=agent)
+        chat = f"Read, evaluate and classify the following transactions. Here is the data: \n\n{str(data)}###Ledger###\n{ledger}\n\nMake sure to strictly adhere to the format given in the prompt."
         await asyncio.sleep(.25)
         await agent.add_agent_message(agent_name, chat)
         await asyncio.sleep(.25)
@@ -97,28 +84,24 @@ class TaskDelegatorAgent(BaseAgent):
         await asyncio.sleep(.25)
         response = await agent.get_response()
         parsed_response = response[0].replace(chat, "")
-        #await self.shared_memory.ledger_remove_agent(agent_name)
         return parsed_response, response[1]
 
     async def retrieve_field_names(self):
+        # Get column names from the loaded CSV data
         return self.data.columns
 
     async def parse_csv(self, date_field: str, description_field: str, amount_field: str, bankaccount_field: str):
-        # Load the data
-        #self.data = self.data.drop(['Unnamed: 0'], axis=1)
-        #data = data.drop_duplicates()
-        #data = data.where(data['amount'] < 0, axis=0)
-        self.data = self.data[self.data[amount_field] < 0]
-
-        #replacing all numbers in description with 0s
+        # Process and analyze the CSV data
+        self.data = self.data[self.data[amount_field] < 0]  # Filter for negative amounts
         self.data = self.data[[date_field, description_field, amount_field, bankaccount_field]]
 
+        # Clean up description field
         self.data['description'] = self.data[description_field].str.replace(r'\d+', '0', regex=True)
         self.data['description'] = self.data['description'].apply(lambda x: self.serial_parse(x))
         
-        self.data['amount'] = -self.data[amount_field]
+        self.data['amount'] = -self.data[amount_field]  # Convert to positive values
 
-        #group by month
+        # Convert date to datetime and extract month
         self.data['datetime'] = pd.to_datetime(self.data[date_field], format="mixed")
         self.data['month'] = self.data['datetime'].dt.month
 
@@ -141,54 +124,58 @@ class TaskDelegatorAgent(BaseAgent):
                     print(f"Month: {month}")
                     monthly_data = ba_data[(ba_data['month']==month) & (ba_data['datetime'].dt.year==year)][["description", "amount"]]
                     clusters = monthly_data['description'].unique()
-                    # Cluster the descriptions
-                    #clusters = self.cluster_strings(unique_descriptions, 2)
                     
+                    # Aggregate data by description
                     for z in clusters:
                         sum_of_amounts = monthly_data[(monthly_data['description']==z)]['amount'].sum()
                         monthly_data.loc[monthly_data['description']==z, 'amount'] = sum_of_amounts
-                        #monthly_data[monthly_data['description']==z]['amount'] = sum_of_amounts
                         monthly_data.drop_duplicates(inplace=True, subset=['description', 'amount'])
                     
+                    # Prepare data for revenue agent
                     sel = f"Transactions for Month: {month} in Year: {year} from Bank Account: {bank_account}\n\n"
                     for y in clusters:
                         sum_of_amounts = monthly_data[(monthly_data['description']==y)]['amount'].sum()
-                        #temp_str = monthly_data[(monthly_data['description']==y)]['description'].apply(lambda x: self.serial_parse(x)).to_string(index=False)
-                        #trans_cat_type = monthly_data[monthly_data['description']==y]['category'].to_string(index=False)
                         sel += f"Description: {y.replace(':', ' ')}, Total transaction amount: {sum_of_amounts}\n"
+                    
+                    # Create task for revenue agent
                     task = asyncio.create_task(self.call_revenue_agent(agent_counter, month, year, sel, bank_account))
                     tasks.append(task)
                     agent_counter = agent_counter + 1
                     
-                    # Wait for all tasks to complete
+                # Wait for all revenue agent tasks to complete
                 responses = await asyncio.gather(*tasks)
                 await asyncio.sleep(.25)
                 responses = AsyncIterable(responses)
                 tasks = []
 
+                # Create tasks for sum agents
                 async for response in responses:
                     task = asyncio.create_task(self.call_sum_agent(sum_agent_num, response[0]))
                     tasks.append(task)
                     sum_agent_num = sum_agent_num + 1
 
+                # Wait for all sum agent tasks to complete
                 responses = await asyncio.gather(*tasks)
                 await asyncio.sleep(.25)
 
-                
+                # Process and store sum agent responses
                 for response in responses:
                     print(f"{response}")
                     revenue_list.append(f"{response[0]}\n")
 
+            # Write revenue data to file
             with open(f"revenues/{bank_account}_revenue.txt", "w+") as f:
                 f.writelines(revenue_list)
+            
             end_time = time.time()
             print(f"Time taken for bank account {bank_account}: {end_time - start_time}")
             with open(f"elapsed_time.txt", "a") as f:
                 f.write(f"Time taken for bank account {bank_account}: {end_time - start_time}\n")
+        
         return overall_responses
 
-
     async def run_function(self, retrieved):
+        # Process and execute function calls from the LLM
         message = retrieved['required_action']['submit_tool_outputs']['tool_calls']
         tool_list = []
         run_id = retrieved['id']
@@ -240,4 +227,3 @@ class TaskDelegatorAgent(BaseAgent):
             tool_list.append({'tool_call_id': str(tool_id), 'output': str(response)})
             
         return tool_list, run_id, thread_id
-        

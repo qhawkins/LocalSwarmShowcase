@@ -52,7 +52,10 @@
         "properties": {
           "target":{
             "type": "string",
-            "description": "the name of the agent to initiate message connection with."
+            "description": "the name of the agent to initiate message connection with.",
+            "enum": [
+              "task_delegator"
+            ]
           }
         },
         "required": [

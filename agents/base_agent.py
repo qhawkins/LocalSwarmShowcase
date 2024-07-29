@@ -1,21 +1,20 @@
 import asyncio
-#from BaseLLM import BaseLLM
 from modules.VLLM import BaseVLLM
 import json
-import time
 from openai import AsyncOpenAI
 
 class BaseAgent:
     def __init__(self, name: str, engine: str, agent_type: str, api_key: str, memory, description: str):
         self.engine = engine
+        # Initialize the appropriate client based on the engine type
         if "mixtral" in engine.lower() or "llama" in engine.lower():
-            #self.client = BaseLLM(model_id=engine, batch_size=1)
             self.client = BaseVLLM(request_id=name, engine=engine)
         elif "gpt" in engine.lower():
             self.client = AsyncOpenAI(api_key=api_key, timeout=3600)
         else:
             print("Invalid engine")
             exit()
+        
         self.thread = None
         self.run = None
         self.name = name
@@ -48,19 +47,22 @@ class BaseAgent:
             return f.read()
 
     async def create_own_agent(self):
+        # Register the agent in shared memory
         print(f'registering {self.name}')
         await self.shared_memory.register_agent(agent_name=self.name, agent_info={"description": self.description, "status": self.status}, agent_class=self)
+        
+        # Create the agent based on the engine type
         if "gpt" in self.engine:
             self.agent = await self.client.beta.assistants.create(model=self.engine, name=self.name, tools=self.tools, instructions=self.instructions)
         else:
             self.agent = "filler, may not be needed"
         
-            
         while self.agent is None:
             await asyncio.sleep(.25)
             print(f'Creating {self.name}')
         print(f'Created {self.name}')
         
+        # Create a thread for GPT-based engines
         if "gpt" in self.engine:
             self.thread = await self.client.beta.threads.create()
         else:
@@ -82,6 +84,7 @@ class BaseAgent:
             print(f"Aggregating Messages: {aggregate_messages}")
             await agent_obj.aggregate_messages(agents)
 
+        # Create a run based on the engine type
         if "gpt" in self.engine:
             agent_obj.run = await agent_obj.client.beta.threads.runs.create(thread_id=agent_obj.thread.id, assistant_id=agent_obj.agent.id)
         else:
@@ -97,6 +100,7 @@ class BaseAgent:
         return response, agent_obj.status
 
     async def aggregate_messages(self, agents: list = []):
+        # Wait for all agents to be ready
         for agent in agents:
             print(f"Aggregating messages for {agent} (am)")
             status = await self.check_agent_status(agent)
@@ -106,14 +110,15 @@ class BaseAgent:
                 print(f"Agent Status: {status} (am)")
                 await asyncio.sleep(.25)
                 status = await self.check_agent_status(agent)
+        
+        # Aggregate messages from short-term memory
         for conversation in self.st_memory:
-            #async with self.lock:
             print(f"Aggregating message: {conversation}")
             if "gpt" in self.engine:
                 await self.client.beta.threads.messages.create(thread_id=self.thread.id, role="user", content=conversation)
             else:
                 await self.client.create_message(conversation)
-        #async with self.lock:
+        
         self.st_memory = []
         return f"Messages aggregated to {self.name}"
 
@@ -135,12 +140,7 @@ class BaseAgent:
         print(f"Initiating connection with {target}")
         agent_obj = await self.shared_memory.ledger_get_agent(target)
         agent_obj = agent_obj["agent_class"]
-        #agent_status = await agent_obj.check_agent_status(target)
-        #while agent_status != "ready":
-        #    await asyncio.sleep(.25)
-        #    print(f"Agent Status: {agent_status}")
-        #    agent_status = await agent_obj.check_agent_status(self.name)
-
+        
         print(f'Initiating connection with {target}')
         await agent_obj.add_agent_message(agent_name=self.name, message=f"Connection initiated with {target}")
         self.connected_agents.append(target)
@@ -164,15 +164,14 @@ class BaseAgent:
         async with self.lock:
             agent_obj.st_memory.append(f"Agent Name: {self.name}\n\nMessage: {message}")
 
-        #await self.client.beta.threads.messages.create(thread_id=self.thread.id, role="assistant", content=message)
         return f"Message added to memory of {agent_name}"
     
     async def retrieve_st_memory(self):
         return self.st_memory
 
-    #get response of agent run
     async def get_response(self):
         while True:
+            # Retrieve the run status
             if "gpt" in self.engine:
                 retrieved = await self.client.beta.threads.runs.retrieve(run_id=self.run.id, thread_id=self.thread.id)
             else:
@@ -180,34 +179,25 @@ class BaseAgent:
             
             self.status = retrieved.model_dump()['status']
             print(f'{self.name} model status: {self.status}, (mem agent get response)')
+            
             if self.status == 'completed':
+                # Get the completed message
                 if "gpt" in self.engine:
                     messages = await self.client.beta.threads.messages.list(
                         thread_id=self.thread.id
                     )
-                
                 else:
                     messages = self.client.list_messages()
                 
-                
-                #await self.shared_memory.context_check_chat_length()
-                #with open(f"logs/{self.name}.txt", "w+") as f:
-                #    f.write(messages.model_dump()['data'][0]['content'][-1]['text']['value'])
-                
-                #print(100*'-')
-
                 return messages.model_dump()['data'][0]['content'][-1]['text']['value'], "completed"
 
-
             elif self.status == 'requires_action':
-                #print(retrieved.model_dump().keys())
+                # Handle required actions
                 tool_list, run_id, thread_id = await self.run_function(retrieved.model_dump())
-                #print(f'{name} tool list: {tool_list}')
                 if "gpt" in self.engine:
                     await self.client.beta.threads.runs.submit_tool_outputs(run_id=run_id, thread_id=thread_id, tool_outputs=tool_list)
                 else:
                     self.client.create_tool_outputs(tool_list)
-
 
             elif self.status == 'failed':
                 print(retrieved.model_dump())
@@ -226,7 +216,8 @@ class BaseAgent:
             await asyncio.sleep(1)    
             tool_id = elem['id']
             arguments = json.loads(elem['function']['arguments'].replace(r"\n", "").replace(r"\t", "").replace(r"\'", ""))
-                
+            
+            # Handle different function calls
             if elem['function']['name'] == 'prompt_user':
                 response = self.prompt_user(prompt_to_user=arguments['prompt_to_user'])
                 print(response)
@@ -255,4 +246,3 @@ class BaseAgent:
             tool_list.append({'tool_call_id': str(tool_id), 'output': str(response)})
             
         return tool_list, run_id, thread_id
-        
