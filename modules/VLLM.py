@@ -25,7 +25,6 @@ class Model:
                 kv_cache_dtype="fp8_e5m2",
                 tensor_parallel_size=2,
                 max_num_seqs=8,
-                #enforce_eager=True,
                 worker_use_ray=True,
                 max_model_len=4096,
                 use_v2_block_manager=True,

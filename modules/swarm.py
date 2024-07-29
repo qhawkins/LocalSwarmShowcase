@@ -15,7 +15,6 @@ class Swarm:
         path = r'company_data.csv'
         
         self.task_delegator = TaskDelegatorAgent("task_delegator", self.engine, "task_delegator", self.openai_key, self.memoryAgent, "the task delegator agent", path)
-        #self.mainAgent = MainAgent("main_agent", self.engine, "main_agent", openai_key, self.memoryAgent)
         
     async def main_agent_lifetime(self, agent: BaseAgent):
         await self.memoryAgent.ledger_add_agent("main_agent", {"agent_info": {"description": "no description", "status": "create_agent"}, "agent_class": self.main_agent}, self.main_agent)

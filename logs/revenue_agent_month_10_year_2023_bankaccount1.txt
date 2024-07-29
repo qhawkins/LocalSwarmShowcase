@@ -1,0 +1,27 @@
+Month: 10, Year: 2023
+
+Description: GPU Sale to IBM, Classification: revenue, Justification: GPU sales to clients are considered revenue items, Total Amount: 15000.0
+Description: Consulting Services for Google, Classification: revenue, Justification: Consulting services provided to clients are considered revenue items, Total Amount: 12500.0
+Description: Meta AI Project Milestone Payment, Classification: revenue, Justification: Payments from clients for project milestones are considered revenue items, Total Amount: 10000.0
+Description: AI Training Workshop Income, Classification: revenue, Justification: Income from AI training workshops is considered revenue, Total Amount: 2500.0
+Description: GPU Sale to Startup Company, Classification: revenue, Justification: GPU sales to clients are considered revenue items, Total Amount: 8000.0
+Description: Consulting Services for IBM, Classification: revenue, Justification: Consulting services provided to clients are considered revenue items, Total Amount: 18300.0
+Description: AI Model Licensing Fee from Client, Classification: revenue, Justification: Licensing fees from clients are considered revenue items, Total Amount: 3500.0
+Description: GPU Sale to Research Institution, Classification: revenue, Justification: GPU sales to clients are considered revenue items, Total Amount: 12000.0
+Description: Consulting Services for Meta, Classification: revenue, Justification: Consulting services provided to clients are considered revenue items, Total Amount: 7000.0
+Description: AI Algorithm Licensing Fee, Classification: revenue, Justification: Licensing fees from clients are considered revenue items, Total Amount: 9000.0
+Description: GPU Sale to Google, Classification: revenue, Justification: GPU sales to clients are considered revenue items, Total Amount: 18000.0
+Description: Consulting Services for Nvidia, Classification: revenue, Justification: Consulting services provided to clients are considered revenue items, Total Amount: 13500.0
+Description: AI Model Customization Project Income, Classification: revenue, Justification: Income from AI model customization projects is considered revenue, Total Amount: 9000.0
+Description: GPU Sale to AI Startup, Classification: revenue, Justification: GPU sales to clients are considered revenue items, Total Amount: 10000.0
+Description: Consulting Services for Tech Startup, Classification: revenue, Justification: Consulting services provided to clients are considered revenue items, Total Amount: 4500.0
+Description: AI Workshop Income, Classification: revenue, Justification: Income from AI workshops is considered revenue, Total Amount: 3000.0
+Description: GPU Sale to Research Lab, Classification: revenue, Justification: GPU sales to clients are considered revenue items, Total Amount: 14000.0
+Description: AI Model Deployment Project Income, Classification: revenue, Justification: Income from AI model deployment projects is considered revenue, Total Amount: 8500.0
+Description: GPU Sale to University, Classification: revenue, Justification: GPU sales to clients are considered revenue items, Total Amount: 11000.0
+Description: GPU Sale to Meta, Classification: revenue, Justification: GPU sales to clients are considered revenue items, Total Amount: 16000.0
+Description: Consulting Services for Startup, Classification: revenue, Justification: Consulting services provided to clients are considered revenue items, Total Amount: 4000.0
+Description: GPU Sale to AI Research Firm, Classification: revenue, Justification: GPU sales to clients are considered revenue items, Total Amount: 13000.0
+Description: AI Model Optimization Project Income, Classification: revenue, Justification: Income from AI model optimization projects is considered revenue, Total Amount: 7000.0
+Description: GPU Sale to Tech Startup, Classification: revenue, Justification: GPU sales to clients are considered revenue items, Total Amount: 9500.0
+Description: AI Workshop Series Income, Classification: revenue, Justification: Income from AI workshop series is considered revenue, Total Amount: 6000.0

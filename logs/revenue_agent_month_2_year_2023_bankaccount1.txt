@@ -1,0 +1,16 @@
+Month: 2, Year: 2023
+
+Description: GPU Sale to IBM, Classification: revenue, Justification: GPU sales to IBM are considered revenue items because it is a sale item to a client, Total Amount: 15000.0
+Description: Consulting Services - Google, Classification: revenue, Justification: Consulting services to Google are considered revenue items because they are payment for services rendered to a client, Total Amount: 16500.0
+Description: Consulting Services - Meta, Classification: revenue, Justification: Consulting services to Meta are considered revenue items because they are payment for services rendered to a client, Total Amount: 14500.0
+Description: GPU Sale to Startup Client, Classification: revenue, Justification: GPU sales to a startup client are considered revenue items because it is a sale item to a client, Total Amount: 10000.0
+Description: Consulting Services - IBM, Classification: revenue, Justification: Consulting services to IBM are considered revenue items because they are payment for services rendered to a client, Total Amount: 12500.0
+Description: Licensing Fee Income - Proprietary AI Model, Classification: revenue, Justification: Licensing fee income is considered a revenue item because it is payment for the use of a proprietary AI model, Total Amount: 20000.0
+Description: Consulting Services - Nvidia, Classification: revenue, Justification: Consulting services to Nvidia are considered revenue items because they are payment for services rendered to a client, Total Amount: 16500.0
+Description: GPU Sale to Research Institution, Classification: revenue, Justification: GPU sales to a research institution are considered revenue items because it is a sale item to a client, Total Amount: 12000.0
+Description: GPU Sale to Tech Startup, Classification: revenue, Justification: GPU sales to a tech startup are considered revenue items because it is a sale item to a client, Total Amount: 18000.0
+Description: Licensing Fee Income - AI Algorithm, Classification: revenue, Justification: Licensing fee income is considered a revenue item because it is payment for the use of an AI algorithm, Total Amount: 15000.0
+Description: GPU Sale to AI Research Lab, Classification: revenue, Justification: GPU sales to an AI research lab are considered revenue items because it is a sale item to a client, Total Amount: 20000.0
+Description: Weekend Client Emergency Support, Classification: revenue, Justification: Weekend client emergency support is considered a revenue item because it is payment for services rendered to a client, Total Amount: 2000.0
+Description: GPU Sale to Financial Institution, Classification: revenue, Justification: GPU sales to a financial institution are considered revenue items because it is a sale item to a client, Total Amount: 22000.0
+Description: AI Conference Speaker Fee Income, Classification: revenue, Justification: AI conference speaker fee income is considered a revenue item because it is payment for services rendered, Total Amount: 3000.0

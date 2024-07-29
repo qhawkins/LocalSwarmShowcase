@@ -1,0 +1,14 @@
+Month: 7, Year: 2023
+
+Description: GPU Sale to Google, Classification: revenue, Justification: GPU sales to Google are considered revenue items because it is a sale item to a client, Total Amount: 62000.0
+Description: Consulting Services for IBM, Classification: revenue, Justification: Consulting services for IBM are considered revenue items because it is a source of cashflow for services rendered to a client, Total Amount: 22000.0
+Description: GPU Sale to Meta, Classification: revenue, Justification: GPU sales to Meta are considered revenue items because it is a sale item to a client, Total Amount: 64000.0
+Description: Consulting Services for Nvidia, Classification: revenue, Justification: Consulting services for Nvidia are considered revenue items because it is a source of cashflow for services rendered to a client, Total Amount: 27500.0
+Description: GPU Sale to IBM, Classification: revenue, Justification: GPU sales to IBM are considered revenue items because it is a sale item to a client, Total Amount: 68000.0
+Description: Licensing Fee from Google, Classification: revenue, Justification: Licensing fees from Google are considered revenue items because it is a source of cashflow for services or goods provided, Total Amount: 42000.0
+Description: Consulting Services for Meta, Classification: revenue, Justification: Consulting services for Meta are considered revenue items because it is a source of cashflow for services rendered to a client, Total Amount: 26500.0
+Description: GPU Sale to Nvidia, Classification: revenue, Justification: GPU sales to Nvidia are considered revenue items because it is a sale item to a client, Total Amount: 46000.0
+Description: Licensing Fee from IBM, Classification: revenue, Justification: Licensing fees from IBM are considered revenue items because it is a source of cashflow for services or goods provided, Total Amount: 27000.0
+Description: Consulting Services for Google, Classification: revenue, Justification: Consulting services for Google are considered revenue items because it is a source of cashflow for services rendered to a client, Total Amount: 17500.0
+Description: Licensing Fee from Nvidia, Classification: revenue, Justification: Licensing fees from Nvidia are considered revenue items because it is a source of cashflow for services or goods provided, Total Amount: 27000.0
+Description: Licensing Fee from Meta, Classification: revenue, Justification: Licensing fees from Meta are considered revenue items because it is a source of cashflow for services or goods provided, Total Amount: 30000.0
