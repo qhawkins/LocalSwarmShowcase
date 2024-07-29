@@ -1,0 +1,24 @@
+Month: 3, Year: 2023
+
+Description: GPU Sale to IBM, Classification: revenue, Justification: GPU sales to IBM are considered revenue items because it is a sale item to a client, Total Amount: 15000.0
+Description: Consulting Services for Google, Classification: revenue, Justification: Consulting services for Google are considered revenue items because it is a payment for services rendered to a client, Total Amount: 11500.0
+Description: GPU Sale to Meta, Classification: revenue, Justification: GPU sales to Meta are considered revenue items because it is a sale item to a client, Total Amount: 39000.0
+Description: Consulting Services for Nvidia, Classification: revenue, Justification: Consulting services for Nvidia are considered revenue items because it is a payment for services rendered to a client, Total Amount: 16000.0
+Description: GPU Sale to Startup Client, Classification: revenue, Justification: GPU sales to Startup Client are considered revenue items because it is a sale item to a client, Total Amount: 10000.0
+Description: Licensing Fee from Client, Classification: revenue, Justification: Licensing fees from clients are considered revenue items because it is a payment for services or goods provided, Total Amount: 3000.0
+Description: Consulting Services for IBM, Classification: revenue, Justification: Consulting services for IBM are considered revenue items because it is a payment for services rendered to a client, Total Amount: 20500.0
+Description: GPU Sale to Google, Classification: revenue, Justification: GPU sales to Google are considered revenue items because it is a sale item to a client, Total Amount: 39000.0
+Description: Consulting Services for Meta, Classification: revenue, Justification: Consulting services for Meta are considered revenue items because it is a payment for services rendered to a client, Total Amount: 17000.0
+Description: Licensing Fee from Startup, Classification: revenue, Justification: Licensing fees from startups are considered revenue items because it is a payment for services or goods provided, Total Amount: 2500.0
+Description: GPU Sale to Nvidia, Classification: revenue, Justification: GPU sales to Nvidia are considered revenue items because it is a sale item to a client, Total Amount: 45000.0
+Description: Consulting Services for Startup, Classification: revenue, Justification: Consulting services for startups are considered revenue items because it is a payment for services rendered to a client, Total Amount: 9500.0
+Description: GPU Sale to Research Institute, Classification: revenue, Justification: GPU sales to Research Institute are considered revenue items because it is a sale item to a client, Total Amount: 12000.0
+Description: Licensing Fee from Tech Company, Classification: revenue, Justification: Licensing fees from tech companies are considered revenue items because it is a payment for services or goods provided, Total Amount: 3500.0
+Description: GPU Sale to Startup, Classification: revenue, Justification: GPU sales to Startup are considered revenue items because it is a sale item to a client, Total Amount: 9000.0
+Description: Licensing Fee from Research Lab, Classification: revenue, Justification: Licensing fees from research labs are considered revenue items because it is a payment for services or goods provided, Total Amount: 4000.0
+Description: Licensing Fee from Tech Startup, Classification: revenue, Justification: Licensing fees from tech startups are considered revenue items because it is a payment for services or goods provided, Total Amount: 3200.0
+Description: GPU Sale to Research University, Classification: revenue, Justification: GPU sales to Research University are considered revenue items because it is a sale item to a client, Total Amount: 14000.0
+Description: Licensing Fee from AI Startup, Classification: revenue, Justification: Licensing fees from AI startups are considered revenue items because it is a payment for services or goods provided, Total Amount: 3800.0
+Description: Licensing Fee from Tech Giant, Classification: revenue, Justification: Licensing fees from tech giants are considered revenue items because it is a payment for services or goods provided, Total Amount: 5000.0
+Description: GPU Sale to AI Research Lab, Classification: revenue, Justification: GPU sales to AI Research Lab are considered revenue items because it is a sale item to a client, Total Amount: 16000.0
+Description: Licensing Fee from Educational Institution, Classification: revenue, Justification: Licensing fees from educational institutions are considered revenue items because it is a payment for services or goods provided, Total Amount: 4200.0

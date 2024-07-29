@@ -1,3 +1,4 @@
 Time taken for bank account bankaccount1: 179.7583966255188
 Time taken for bank account bankaccount1: 181.5032820701599
 Time taken for bank account bankaccount1: 186.99446487426758
+Time taken for bank account bankaccount1: 197.96633791923523

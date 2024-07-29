@@ -1,0 +1,33 @@
+Month: 1, Year: 2023
+
+Description: GPU Sales to Google, Classification: revenue, Justification: GPU sales to Google are considered revenue items because it is a sale item to a client, Total Amount: 25000.0
+Description: Consulting Services for IBM, Classification: revenue, Justification: Consulting services for IBM are considered revenue items because it is a source of cashflow for services rendered to a client, Total Amount: 10000.0
+Description: Software License Fees, Classification: revenue, Justification: Software license fees are considered revenue items because it is a source of cashflow for services rendered, Total Amount: 5000.0
+Description: GPU Sales to Meta, Classification: revenue, Justification: GPU sales to Meta are considered revenue items because it is a sale item to a client, Total Amount: 30000.0
+Description: Consulting Services for Nvidia, Classification: revenue, Justification: Consulting services for Nvidia are considered revenue items because it is a source of cashflow for services rendered to a client, Total Amount: 12000.0
+Description: GPU Sales to Amazon, Classification: revenue, Justification: GPU sales to Amazon are considered revenue items because it is a sale item to a client, Total Amount: 28000.0
+Description: Consulting Services for Microsoft, Classification: revenue, Justification: Consulting services for Microsoft are considered revenue items because it is a source of cashflow for services rendered to a client, Total Amount: 15000.0
+Description: GPU Sales to Apple, Classification: revenue, Justification: GPU sales to Apple are considered revenue items because it is a sale item to a client, Total Amount: 32000.0
+Description: Consulting Services for Tesla, Classification: revenue, Justification: Consulting services for Tesla are considered revenue items because it is a source of cashflow for services rendered to a client, Total Amount: 18000.0
+Description: GPU Sales to Oracle, Classification: revenue, Justification: GPU sales to Oracle are considered revenue items because it is a sale item to a client, Total Amount: 27000.0
+Description: Consulting Services for Intel, Classification: revenue, Justification: Consulting services for Intel are considered revenue items because it is a source of cashflow for services rendered to a client, Total Amount: 14000.0
+Description: GPU Sales to Salesforce, Classification: revenue, Justification: GPU sales to Salesforce are considered revenue items because it is a sale item to a client, Total Amount: 29000.0
+Description: Consulting Services for AMD, Classification: revenue, Justification: Consulting services for AMD are considered revenue items because it is a source of cashflow for services rendered to a client, Total Amount: 13000.0
+Description: GPU Sales to Twitter, Classification: revenue, Justification: GPU sales to Twitter are considered revenue items because it is a sale item to a client, Total Amount: 26000.0
+Description: Consulting Services for Dell, Classification: revenue, Justification: Consulting services for Dell are considered revenue items because it is a source of cashflow for services rendered to a client, Total Amount: 11000.0
+Description: GPU Sales to Uber, Classification: revenue, Justification: GPU sales to Uber are considered revenue items because it is a sale item to a client, Total Amount: 24000.0
+Description: Consulting Services for Lyft, Classification: revenue, Justification: Consulting services for Lyft are considered revenue items because it is a source of cashflow for services rendered to a client, Total Amount: 9000.0
+Description: GPU Sales to Adobe, Classification: revenue, Justification: GPU sales to Adobe are considered revenue items because it is a sale item to a client, Total Amount: 31000.0
+Description: Consulting Services for Cisco, Classification: revenue, Justification: Consulting services for Cisco are considered revenue items because it is a source of cashflow for services rendered to a client, Total Amount: 16000.0
+Description: GPU Sales to PayPal, Classification: revenue, Justification: GPU sales to PayPal are considered revenue items because it is a sale item to a client, Total Amount: 23000.0
+Description: Consulting Services for Airbnb, Classification: revenue, Justification: Consulting services for Airbnb are considered revenue items because it is a source of cashflow for services rendered to a client, Total Amount: 12500.0
+Description: GPU Sales to Square, Classification: revenue, Justification: GPU sales to Square are considered revenue items because it is a sale item to a client, Total Amount: 28500.0
+Description: Consulting Services for Spotify, Classification: revenue, Justification: Consulting services for Spotify are considered revenue items because it is a source of cashflow for services rendered to a client, Total Amount: 10500.0
+Description: GPU Sales to Dropbox, Classification: revenue, Justification: GPU sales to Dropbox are considered revenue items because it is a sale item to a client, Total Amount: 27500.0
+Description: Consulting Services for Slack, Classification: revenue, Justification: Consulting services for Slack are considered revenue items because it is a source of cashflow for services rendered to a client, Total Amount: 13500.0
+Description: GPU Sales to Zoom, Classification: revenue, Justification: GPU sales to Zoom are considered revenue items because it is a sale item to a client, Total Amount: 29500.0
+Description: Consulting Services for Twilio, Classification: revenue, Justification: Consulting services for Twilio are considered revenue items because it is a source of cashflow for services rendered to a client, Total Amount: 11500.0
+Description: GPU Sales to Atlassian, Classification: revenue, Justification: GPU sales to Atlassian are considered revenue items because it is a sale item to a client, Total Amount: 26500.0
+Description: Consulting Services for DocuSign, Classification: revenue, Justification: Consulting services for DocuSign are considered revenue items because it is a source of cashflow for services rendered to a client, Total Amount: 14500.0
+Description: GPU Sales to Shopify, Classification: revenue, Justification: GPU sales to Shopify are considered revenue items because it is a sale item to a client, Total Amount: 30500.0
+Description: Consulting Services for Okta, Classification: revenue, Justification: Consulting services for Okta are considered revenue items because it is a source of cashflow for services rendered to a client, Total Amount: 12800.0
